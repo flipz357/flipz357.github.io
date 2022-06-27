@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to my page!
 
-You can use the [editor on GitHub](https://github.com/flipz357/flipz357.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I'm Juri Opitz, an NLP (Natural Language Processing) researcher currently based in Heidelberg, Germany.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Interests
 
-### Markdown
+#### PhD topic: Meaning representations and similarity explainability
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Given a text, can a computer find out *who does what to whom?* Meaning representation try to express the answer to this questions in a structured format, such as a graph, which can be processed and understood by machines.
 
-```markdown
-Syntax highlighted code block
+My PhD topic is the analysis, design and application of *metrics* between such representations. While such metrics are important to check the quality of systems that generate meaning representations, an interesting potential of such metrics is that they can *explain* to us why (and in which aspects) two texts are similar, or dissimilar. 
 
-# Header 1
-## Header 2
-### Header 3
+#### Classification Evaluation
 
-- Bulleted
-- List
+Even though classification is a task that is straightforward, the suitability of a metric for testing the performance of a classifier can differ from case to case. In the courses that I taught and in my own research, questions that have popped up repeatedly are
 
-1. Numbered
-2. List
+- should we use this metric or that?
+- why do researchers compare annotators with metric a, but systems with metric b?
+- what does it mean, when a data set is "imbalanced", how should this affect the selection of an evaluation metric?
 
-**Bold** and _Italic_ and `Code` text
+#### Computational humanities
 
-[Link](url) and ![Image](src)
-```
+Finally, I a passion of mine is the analysis of historic data. In particular, I find it very interesting to test the large-scale statistical analysis of patterns in collections of historic texts, that can help us get a bigger picture and explore the European medieval ages across time and spatial axes.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities, starting from the time of the Carolingian dynasty (~750 CE) to MAximilian I. (~ 1500 CE). 
 
-### Jekyll Themes
+All code for the experiments and the data is available at my github.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flipz357/flipz357.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
