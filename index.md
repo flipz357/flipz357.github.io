@@ -22,7 +22,7 @@ Even though classification is a task that is straightforward, the suitability of
 
 Finally, I a passion of mine is the analysis of historic data. In particular, I find it very interesting to test the large-scale statistical analysis of patterns in collections of historic texts, exploring the European medieval ages across time and spatial axes.
 
-For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities, starting from the time of the Carolingian dynasty (~750 CE) to Maximilian I. (~ 1500 CE). 
+For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities, starting from the time of the Carolingian dynasty (~750 CE) to Maximilian I. (~ 1500 CE). Of course, "autmoatic" also means that there's much space for future work to reduce the error of the resconstructions.
 
 All code for the experiments and the data is available at my github.
 
