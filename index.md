@@ -6,7 +6,7 @@ I'm Juri Opitz, an NLP (Natural Language Processing) researcher currently based 
 
 #### PhD topic: Meaning representations and similarity explainability
 
-Given a text, can a computer find out *who does what to whom?* Meaning representation try to express the answer to this questions in a structured format, such as a graph, which can be processed and understood by machines.
+Given a text, how can we capture *who does what to whom?* Meaning representation try to express the answer to this questions in a structured format, such as a graph, which can be processed and understood by machines.
 
 My PhD topic is the analysis, design and application of *metrics* between such representations. While such metrics are important to check the quality of systems that generate meaning representations, an interesting potential of such metrics is that they can *explain* to us why (and in which aspects) two texts are similar, or dissimilar. 
 
