@@ -1,6 +1,6 @@
 ## Welcome to my page!
 
-I'm Juri Opitz, an NLP (Natural Language Processing) researcher currently based in Heidelberg, Germany.
+I'm Juri Opitz, an NLP (Natural Language Processing) researcher from Heidelberg, Germany.
 
 ### Interests
 
