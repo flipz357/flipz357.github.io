@@ -8,7 +8,7 @@ I'm Juri Opitz, a researcher currently based in Heidelberg, Germany. I'm interes
 
 How can we capture *who does what to whom* in a text? Meaning representation try to express the answer to this questions in a structured and explicit format, such as a graph.
 
-One of my interests is the design and application of *metrics* between such representations. While such metrics are important to check the quality of systems that generate meaning representations, an interesting potential of such metrics is that they can *explain* to us why (and in which aspects) two texts are similar, or dissimilar.
+One of my interests is the design and application of **metrics between such representations**. While such metrics are important to check the quality of systems that generate meaning representations, an interesting potential of such metrics is that they can *explain* to us why (and in which aspects) two texts are similar, or dissimilar.
 
 There's also an issue that prevents a more wide-spread use of meaning representations for downstream tasks: they typically require slow and complex parsers, making downstream systems inefficient and not so easy to use. And thus they become kind of less useful. Therefore, another motivation of mine is to **make meaning representations more useful**. For instance, in [this paper](https://arxiv.org/abs/2206.07023) we generate sentence embeddings with meaning representations and make them more explainable -- without requiring a parser, keeping all efficiency of the nerual sentence embeddings! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
