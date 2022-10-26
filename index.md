@@ -23,7 +23,7 @@ I've written two notes on this topic. One is an analysis of false friends: *Macr
 
 #### Computational humanities 🤴
 
-Finally, a passion of mine is the analysis of historic data. In particular, I find it interesting to test the large-scale statistical analysis of patterns in collections of historic texts, exploring the European medieval ages across time and spatial axes.
+Finally, a passion of mine is digging into historic data sets. In particular, I'd like to test large-scale statistics in collections of historic texts, exploring the European medieval ages across time and spatial axes.
 
 For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities, starting from the time of the Carolingian dynasty (~750 CE) to Maximilian I. (~ 1500 CE). Of course, "automatic" also means that there's much space for future work to reduce the error of the resconstructions.
 
