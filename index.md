@@ -1,6 +1,6 @@
 ## Hi!
 
-I'm a final year PhD student at Heidelberg University. I'm interested in machine learning, with a focus on NLP (Natural Language Processing).
+I'm Juri Opitz, a final year PhD student at Heidelberg University. I'm interested in machine learning, with a focus on NLP (Natural Language Processing).
 
 ### Some of my interests
 
