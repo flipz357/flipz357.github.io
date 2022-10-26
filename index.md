@@ -1,8 +1,8 @@
 ## Welcome to my page!
 
-I'm Juri Opitz, a researcher from Heidelberg, Germany. Im an interested in machine learning, with a focus on NLP (Natural Language Processing).
+I'm Juri Opitz, a researcher currently based in Heidelberg, Germany. I'm an interested in machine learning, with a focus on NLP (Natural Language Processing).
 
-### Interests
+### Some of my interests
 
 #### Meaning representations and Explainability
 
