@@ -20,7 +20,7 @@ Even though classification is a task that seems straightforward, our choice of e
 - why do researchers compare annotators with metric a, but systems with metric b?
 - what does it mean, when a data set is "imbalanced", how should this affect the selection of an evaluation metric?
 
-I've written two notes on this topic. One is an analysis of false friends: *Macro F1 and macro F1* (no typo!), here's the [paper](https://arxiv.org/abs/1911.03347). Then there are [some refined teaching notes (pdf)](https://raw.githubusercontent.com/flipz357/flipz357.github.io/main/pdf/metric_primer.pdf) that I wrote during my teaching, triggered by re-occuring questions with students about reasons for selecting particular evaluation metrics in papers.
+I've written two notes on this topic. One is an analysis of false friends: *Macro F1 and macro F1* (no typo!), here's the [paper](https://arxiv.org/abs/1911.03347). Then there are [some refined teaching notes (pdf)](https://raw.githubusercontent.com/flipz357/flipz357.github.io/main/assets/pdf/metric_primer.pdf) that I wrote during my teaching, triggered by re-occuring questions with students about reasons for selecting particular evaluation metrics in papers.
 
 
 #### Computational humanities
