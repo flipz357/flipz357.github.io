@@ -33,5 +33,5 @@ All code for the experiments and the data is available at [this repository](http
 
 #### Publications
 
-See (Google Scholar)[https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de]
+See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de)
 
