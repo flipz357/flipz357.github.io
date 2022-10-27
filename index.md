@@ -19,7 +19,7 @@ Even though classification is a task that seems straightforward, our choice of e
 - should we use this metric or that? what/how does a metric actually measure?
 - why do researchers compare annotators with metric a, but systems with metric b?
 
-I've written two notes related to these topics. One is an analysis of false friends: *Macro F1 and macro F1* (no typo!), here's the [paper](https://arxiv.org/abs/1911.03347). Then there are [some refined teaching notes (pdf)](https://raw.githubusercontent.com/flipz357/flipz357.github.io/main/assets/pdf/metric_primer.pdf) that I wrote during my teaching, triggered by re-occuring discussions with students in reading groups.
+I've written two notes related to these topics. One is an analysis of false friends: *Macro F1 and macro F1* (no typo!), here's the [paper](https://arxiv.org/abs/1911.03347). Then there are [some refined teaching notes (pdf)](https://github.com/flipz357/flipz357.github.io/raw/main/assets/pdf/metric_overview.pdf) that I wrote during my teaching, triggered by re-occuring discussions with students in reading groups.
 
 #### Computational humanities 🤴
 
