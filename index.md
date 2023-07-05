@@ -20,4 +20,17 @@ Aiming at the best of such worlds, in [this paper](https://arxiv.org/abs/2206.07
 
 See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de)
 
+### Teaching
+
+At Heidelberg University
+
+- Seminar on self-attention mechanisms
+- Seminar on compuational argumentation
+- Seminar on advances in parsing and generation
+- Lecture on Advanced Programming
+
+### Invited talks
+
+- Metrics of meaning representations and there interesting applications @DMR workshop at IWCS 2023
+
 
