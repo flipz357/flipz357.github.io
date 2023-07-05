@@ -2,7 +2,9 @@
 
 Hi there! I'm Juri Opitz, a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg university, where I was advised by Anette Frank.
 
-### Some of my interests 🔍
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron representations (e.g., from large language models), to human mental representations. A goal is to investigate if we can find structural interlinks between the diverse representations.
+
+### Overview of some work 🔍
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
