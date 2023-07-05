@@ -12,7 +12,7 @@ Aiming at the best of such worlds, in [this paper](https://arxiv.org/abs/2206.07
 
 #### Other
 
-- System Evaluation 😵‍💫: Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy: should we use this metric or that? what/how does a metric actually measure? why do researchers compare annotators with metric a, but systems with metric b? I've written two notes related to these topics. One is an analysis of false friends: *Macro F1 and macro F1* (no typo!), here's the [paper](https://arxiv.org/abs/1911.03347); and [some teaching notes (pdf)](https://github.com/flipz357/flipz357.github.io/raw/main/assets/pdf/metric_overview.pdf), triggered by re-occuring discussions with students in reading groups. Finally, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation (introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
+- System Evaluation 😵‍💫: Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there are false friends such as: [Macro F1 and macro F1]((https://arxiv.org/abs/1911.03347)) (no typo!). Finally, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation (introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
 
 - Computational humanities 🤴: I always liked to dig into historic data sets. How can computers help us make sense of tremendous amounts of such data? I have written some code for computing large-scale statistics in collections of historic texts, exploring the European medieval ages across time and spatial axes. For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities, starting from the time of the Carolingian dynasty (~750 CE) to Maximilian I. (~ 1500 CE). Of course, "automatic" also means that there's much space for future work to reduce the error of the resconstructions. All code for the experiments and the data is available at [this repository](https://github.com/flipz357/regesta-imperii-to-semgis).
 
@@ -24,13 +24,13 @@ See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de
 
 At Heidelberg University
 
-- Seminar on self-attention mechanisms
+- Seminar on different self-attention mechanisms in transformer models
 - Seminar on compuational argumentation
-- Seminar on advances in parsing and generation
-- Lecture on Advanced Programming
+- Seminar on advances in semantic parsing and generation
+- Lecture on advanced programming with python
 
 ### Invited talks
 
-- Metrics of meaning representations and there interesting applications @DMR workshop at IWCS 2023
+- Metrics of meaning representations and their interesting applications @DMR workshop at IWCS 2023
 
 
