@@ -27,8 +27,8 @@ See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de
 At Heidelberg University
 
 - Seminar on different self-attention mechanisms in transformer models
-- Seminar on compuational argumentation
-- Seminar on advances in semantic parsing and generation
+- Seminar on computational argumentation
+- Seminar on advances in semantic parsing and generation (two related term projects of excellent students resulted in publications [1](https://arxiv.org/abs/2106.04565)[2](https://arxiv.org/abs/2203.13226))
 - Lecture on advanced programming with python
 
 ### Invited talks
