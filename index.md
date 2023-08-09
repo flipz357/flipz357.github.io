@@ -2,13 +2,13 @@
 
 Hi there! I'm Juri Opitz, a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg university, where I was advised by Anette Frank.
 
-I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron representations (e.g., from large language models), to human mental representations. A goal is to investigate if we can find structural interlinks between the diverse representations.
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron representations (e.g., from large language models), and maybe even to human mental representations. A goal is to investigate possible structural interlinks between the diverse representations.
 
 ### Overview of some work 🔍
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
-How can we capture *who does what to whom* in a text? A meaning representation tries to express the answer to this questions in a structured and explicit format, such as a graph. One of my interests is investigating ways to build neural-symbolic methods from meaning representations and neural networks, leveraging the power of the latter and the explicitness and descriptiveness of the former. Indeed, while neural networks provide us with useful embeddings and generations, they tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, meaning representations describe the meaning with a crisp representation that is explicit and decomposable.
+How can we capture *who does what to whom* in a text? A meaning representation tries to express the answer to this questions in a structured and explicit format, such as a graph. One of my interests is investigating ways to build novel methods from meaning representations and neural networks, leveraging the power of the latter and the explicitness and descriptiveness of the former. Indeed, while neural networks provide us with useful embeddings and generations, they tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, meaning representations describe the meaning with a crisp representation that is explicit and decomposable.
 
 Aiming at the best of such worlds, in [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. Indeed, we show that we can keep all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
