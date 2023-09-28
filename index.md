@@ -1,10 +1,10 @@
 ## Juri Opitz
 
-Hi there! I'm Juri Opitz, a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg university, where I was advised by Anette Frank.
+Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg university, where I was advised by Anette Frank.
 
-I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find investigate structural interlinks between the diverse representations.
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations.
 
-### Overview of some work 🔍
+### Overview of some work and interests 🔍
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
@@ -26,13 +26,13 @@ See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de
 
 At Heidelberg University
 
+- Lecture on advanced programming with python
 - Seminar on different self-attention mechanisms in transformer models
 - Seminar on computational argumentation
-- Seminar on advances in semantic parsing and generation (two term projects of excellent students resulted in publications [[1](https://arxiv.org/abs/2106.04565)] [[2](https://arxiv.org/abs/2203.13226)])
-- Lecture on advanced programming with python
+- Seminar on semantic parsing and generation (two term projects of excellent students resulted in publications [[1](https://arxiv.org/abs/2106.04565)] [[2](https://arxiv.org/abs/2203.13226)])
 
 ### Invited talks
 
-- Metrics of meaning representations and their interesting applications @DMR workshop at IWCS 2023
+- *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France
 
 
