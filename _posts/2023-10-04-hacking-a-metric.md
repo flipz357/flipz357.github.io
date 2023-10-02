@@ -6,7 +6,7 @@ subtitle: "And what to do about it"
 
 TLDR, in this post we will see that:
 
-- 🤯 With a simple hack we can get the best possible score on the benchmark. 
+- 🤯 With a simple hack we can get *the best possible score on the benchmark* 🚀. 
 
 - ✅ For safe evaluation, do not use the Smatch metric, but use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
@@ -68,7 +68,7 @@ Okay, well, let’s see how far we can go, we add the triple (w, ARG0, d) ten fu
 >>> F-score: 120.
 ```
 
-💥💥💥, we have broken the scale!! On a funny side note, the score will converge to 200. Here's a question for the readers: Why is that? 
+💥💥💥, folks, we just broke the scale, 100 was supposed to be the maximum!! On a funny side note, the score will converge to 200. Here's a little question for the readers: Why is that? 
 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
