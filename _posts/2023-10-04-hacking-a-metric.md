@@ -107,9 +107,9 @@ We should also consider to:
 
 - Perform some human analysis of system outputs. 
 
-#### Cite this blog post:
+## Cite this blog post
 
-Some of the considerations in this post and Smatch++ are described in my EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation)
+Smatch++ is introduced in an EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation)
 
 #### References
 
