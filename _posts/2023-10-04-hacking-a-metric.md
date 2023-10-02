@@ -113,11 +113,8 @@ Yes 😊! And only little steps need to be taken for starters. First, we should
 
 - Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch. Smatch++ has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
-We should also consider to:
-
-- Think of more ways to evaluate AMR parsers. Use other metrics (there are other metrics!), or think of downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially in times where parsers, powered by LLMs, have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ structurally to a large degree, but they express almost the same meaning. Here's some of our research on that: 1. [comparing very strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's have recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with more extended evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125) https://aclanthology.org/2023.acl-short.137/).
-
-- Perform some human analysis of system outputs. 
+We should also consider more ways of evaluating AMRs. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially in times where parsers, powered by LLMs, have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ structurally to a large degree, but they express almost the same meaning. Here's some of our research on that: 1. [comparing very strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's have recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with more extended evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125) https://aclanthology.org/2023.acl-short.137/).
+ 
 
 ## Cite this blog post
 
