@@ -99,11 +99,11 @@ Mostly, I would say yes. Even though we now have seen that we can hack the full 
 
 Yes 😊! And only little steps need to be taken for starters. First, we should
 
-- Use Smatchpp instead of Smatch. Smatchpp has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
+- Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch. Smatchpp has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
 We should also consider to:
 
-- Think of more ways to evaluate AMR parsers. Use other metrics (there are other metrics!), or think of downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially in times where parsers, powered by LLMs, have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ structurally to a large degree, but they express almost the same meaning. Here's some of our research on that: 1. [comparing very strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's have recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and a work on [AMR parsing with strong evaluation](https://aclanthology.org/2023.acl-short.137/).
+- Think of more ways to evaluate AMR parsers. Use other metrics (there are other metrics!), or think of downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially in times where parsers, powered by LLMs, have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ structurally to a large degree, but they express almost the same meaning. Here's some of our research on that: 1. [comparing very strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's have recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with more extended evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125) https://aclanthology.org/2023.acl-short.137/).
 
 - Perform some human analysis of system outputs. 
 
@@ -112,6 +112,9 @@ We should also consider to:
 Some of the considerations in this post and Smatch++ are described in my EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation)
 
 #### References
+
+<details> 
+<summary> Click to extend </summary>
 
 [Abstract Meaning Representation for Sembanking](https://aclanthology.org/W13-2322) (Banarescu et al., LAW 2013)
 
@@ -123,9 +126,13 @@ Some of the considerations in this post and Smatch++ are described in my EACL fi
 
 [AMRs Assemble! Learning to Ensemble with Autoregressive Models for AMR Parsing](https://aclanthology.org/2023.acl-short.137) (Martínez Lorenzo et al., ACL 2023)
 
+[Incorporating Graph Information in Transformer-based AMR Parsing](https://aclanthology.org/2023.findings-acl.125) (Vasylenko et al., Findings 2023)
+
 [Weisfeiler-Leman in the Bamboo: Novel AMR Graph Metrics and a Benchmark for AMR Graph Similarity](https://aclanthology.org/2021.tacl-1.85) (Opitz et al., TACL 2021)
 
 [Evaluate AMR Graph Similarity via Self-supervised Learning](https://aclanthology.org/2023.acl-long.892) (Shou & Lin, ACL 2023)
+
+</details>
 
 
 
