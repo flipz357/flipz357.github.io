@@ -6,7 +6,7 @@ subtitle: "And what to do about it"
 
 TLDR, in this post we will see that:
 
-- 🤯 With a simple hack we can get the best possible score on the benchmark. 🤯
+- 🤯 With a simple hack we can get the best possible score on the benchmark. 
 
 - ✅ To fix this, do not use the Smatch metric, but use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
