@@ -110,7 +110,21 @@ We should also consider to:
 
 #### Cite this blog post:
 
-Some of the considerations in this post and Smatch++ are described in my EACL findings paper, so if you want to cite something, [this is a good reference](https://github.com/flipz357/smatchpp#citation)
+Some of the considerations in this post and Smatch++ are described in my EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation)
+
+#### References
+
+[Smatch: an Evaluation Metric for Semantic Feature Structures](https://aclanthology.org/P13-2131) (Cai & Knight, ACL 2013)
+
+[SMATCH++: Standardized and Extended Evaluation of Semantic Graphs](https://aclanthology.org/2023.findings-eacl.118) (Opitz, Findings 2023)
+
+[Better Smatch = Better Parser? AMR evaluation is not so simple anymore](https://aclanthology.org/2022.eval4nlp-1.4) (Opitz & Frank, Eval4NLP 2022)
+
+[AMRs Assemble! Learning to Ensemble with Autoregressive Models for AMR Parsing](https://aclanthology.org/2023.acl-short.137) (Martínez Lorenzo et al., ACL 2023)
+
+[Weisfeiler-Leman in the Bamboo: Novel AMR Graph Metrics and a Benchmark for AMR Graph Similarity](https://aclanthology.org/2021.tacl-1.85) (Opitz et al., TACL 2021)
+
+[Evaluate AMR Graph Similarity via Self-supervised Learning](https://aclanthology.org/2023.acl-long.892) (Shou & Lin, ACL 2023)
 
 
 
