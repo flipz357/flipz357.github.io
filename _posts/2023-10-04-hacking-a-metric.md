@@ -47,7 +47,7 @@ We're gonna score this graph with the *Smatch metric*, crawling the latest versi
 >>> F-score: 46
 ```
 
-Now we add a bit of “salt” to our prediction, we're goona twice repeat that the duck is the “ARG0” of “w / want-01”:
+Now we add a bit of “salt” to our prediction, we're gonna twice repeat that the duck is the “ARG0” of “w / want-01”:
 
 ```
 (w / want-01
