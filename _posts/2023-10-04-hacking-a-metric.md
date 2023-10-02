@@ -8,7 +8,7 @@ TLDR, in this post we will see that:
 
 - 🤯 With a simple hack we can get *the best possible score on the benchmark* 🚀. 
 
-- ✅ For safe evaluation, do not use the Smatch metric, but use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
+- ✅ For safe evaluation, use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
 # Introduction
 
