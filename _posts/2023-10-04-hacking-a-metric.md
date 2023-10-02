@@ -117,7 +117,7 @@ Finally, in the future we can also consider more ways of evaluating AMRs. E.g., 
 
 ## Cite this blog post
 
-Smatch++ is introduced in an EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation).
+[Here's a bib](https://github.com/flipz357/smatchpp#citation) (Smatch++ is introduced in an EACL findings paper that also discussed some of the issues raised above).
 
 #### References
 
