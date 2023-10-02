@@ -105,11 +105,11 @@ Of course what we'd actually like to have is a score of 100, always (since the t
 
 #### Can we trust previous AMR evaluation results? 🤔
 
-Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, some of them seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and thus fixes the first two little devils. I also can personally confirm through experience that the AMR parsers have gotten a lot stronger since 2015. So the overall progress that the metric showed us over the recent years is not wrong in any way. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
+Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and thus fixes the first two little devils. Additionally, everyone that's played around with parsers since the introduction of AMR knows that they've much better. So the overall progress that the metric showed us over the recent years seems not wrong in any way. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
 
 # Can we do better?
 
-Yes 😊! And only little steps need to be taken for starters. Foremost, we should
+Yes 😊! And only a little step needs to be taken for starters. In particular, we should
 
 - Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
