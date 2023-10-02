@@ -6,7 +6,7 @@ subtitle: "And what to do about it"
 
 TLDR, in this post we will see that:
 
-- 🤯 With a simple hack we can get *the best possible score on the benchmark* 🚀. 
+- 🤯 By hacking the [Smatch](https://github.com/snowblink14/smatch) metric we can get *the best possible score on the benchmark* 🚀. 
 
 - ✅ For safe evaluation, use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
