@@ -89,7 +89,7 @@ While this devil cannot hack the evaluation as much, it’s still a funny one. S
 metric(G, G)
 ```
 
-What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a score that is much lower than 100 (e.g., 80), and the score can differ for repeated calculations 🥴:
+What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a different score, which can also differ much for repeated calculations 🥴:
 
 ```
 # First run:
