@@ -68,7 +68,7 @@ Okay, well, let’s see how far we can go, we add the edge (w, ARG0, d) ten furt
 >>> F-score: 120.
 ```
 
-💥💥💥, folks, we just broke the scale, 100 was supposed to be the upper limit! On a funny side note, when dropping more duplicates, I found that the score will converge to 200. Here's a little question for the readers: Why is that? 
+💥💥💥, folks, we just broke the scale, 100 was supposed to be the upper limit! On a funny side note, when adding more duplicates, the score will converge to 200. Here's a little question for the readers: Why is that? 
 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
