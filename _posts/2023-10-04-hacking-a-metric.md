@@ -99,8 +99,6 @@ What should the metric do? Of course it should return a score of 100, since the 
 
 # Second run:
 >>> F-score: 87
-
-...
 ```
 
 Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same).
