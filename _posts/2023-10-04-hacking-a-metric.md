@@ -68,7 +68,7 @@ Okay, well, let’s see how far we can go, we add the triple (w, ARG0, d) ten fu
 >>> F-score: 120.
 ```
 
-💥, we have broken the scale!! On a funny side note, the score will converge to 200. Here's a question for the readers: Why is that? 
+💥💥💥, we have broken the scale!! On a funny side note, the score will converge to 200. Here's a question for the readers: Why is that? 
 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
@@ -92,7 +92,7 @@ G, G’, where G = G’
 
 What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a score that is much lower than 100 (e.g., 80), and the score can even differ for repeated calculations 🥴.
 
-# Can we trust previous AMR evaluation results? 🤔
+#### Can we trust previous AMR evaluation results? 🤔
 
 Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, many of them also used another Smatch implementation that removes duplicate triples and thus fixes the first two little devils. I also can personally confirm through experience that the AMR parsers have gotten a lot stronger since 2015, and this is also reflected by the metric. So the overall progress that the metric showed us over the recent years is not wrong in any way. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
 
