@@ -68,7 +68,12 @@ Okay, well, let’s see how far we can go, we add the triple (w, ARG0, d) ten fu
 >>> F-score: 120.
 ```
 
-Boom 💥💥💥, we have broken the scale!! On a funny side note, the score will converge to 200. Why is that? It’s because of the harmonic mean in the F-score formula. By increasing the matching triples with our duplicate trick, the precision will converge to 100, while the recall will ever grow (due to it being normalized by the size of the reference graph which doesn’t change in size): x -> inf, 2 * x * 100 / (100 + x) = 200.
+💥, we have broken the scale!! On a funny side note, the score will converge to 200. Here's a question for the readers: Why is that? 
+
+<details> 
+  <summary>Why does the evaluation score converge to 200? </summary>
+   It’s because of the harmonic mean in the F-score formula. By increasing the matching triples with our duplicate trick, the precision will converge to 100, while the recall will ever grow (due to it being normalized by the size of the reference graph which doesn’t change in size): x -> inf, 2 * x * 100 / (100 + x) = 200.
+</details>
 
 So let’s conclude that duplicate triples can hack the metric for a pair of graphs, and they duplicate triples are a little devil 😈. Next we see what happens when we evaluate a parser on more items.
 
