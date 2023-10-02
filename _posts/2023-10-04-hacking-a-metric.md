@@ -14,7 +14,7 @@ TLDR, in this post we will see that:
 
 While this post is written for folks who have a little prior understanding in Abstract Meaning Representation (AMR), I’ll start with an analogy to better picture the issue (If you’ve prior AMR knowledge, feel free to jump to the next section).
 
-Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge that started from 20 has now almost touched 85. Since their performance got objectively better, it looks like the judge’s assessment is good.
+Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge now almost touches 85. Since their performance got objectively better, it looks like the judge’s assessment is good.
 
 Suddenly, an onlooker starts believing that the judge seems to like meals that are a bit more on the salty side. They decide to participate, cook a basic meal, and add a significant bit more salt than would be appropriate. They receive a very high grade, say 87, winning this year’s contest. Next time, they win again, scoring 90 (how? yes, you guessed it, by adding even more salt). Finally, in the round after that, they just submit a bowl of pure salt… and score 100 points.
 
