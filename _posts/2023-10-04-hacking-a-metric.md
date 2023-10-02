@@ -79,7 +79,9 @@ So let’s conclude that duplicate edges, much like a little devil 😈, can muc
 
 #### There’s actually two little devils 😈😈, and they work together: hacking a full parser evaluation by manipulating a single pair
 
-The evaluation mode that is usually applied is called “Micro averaging”, which is a technique to get a final score over many graph pairs. In fact, micro averaging means that we count the matching edges over all pairs before applying the normalization (as opposed to, e.g., calculating a score for every prediction-gold pair and averaging). Actually, the micro averaging is  perfectly fine -- where it not be for the duplicate edge issue. In that case, micro averaging hands us a lever such that we can manipulate just a single graph with our duplicate-hack, to have any evaluation score that we want! Yes, since we're gonna count edges over all graph pairs, one super-large graph will dominate the result. If the graph gets even larger, the overall evaluation score converges to the result of the large graph.
+The evaluation mode that is usually applied is called “Micro averaging”, which is a technique to get a final score over many graph pairs. In fact, micro averaging means that we count the matching edges over all graph pairs before applying the normalization (as opposed to, e.g., getting a score for every prediction-gold pair and averaging). 
+
+Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can dominate the result. If we make this single graph veeery large, the two 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph (basically, we can get a final evaluation score at our will).
 
 #### There’s actually yet another devil 😈: the Smatch score uses a heuristic
 
