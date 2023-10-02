@@ -83,7 +83,7 @@ The evaluation mode that is usually applied is called “Micro averaging”, whi
 
 Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can dominate the result. If we make this single graph veeery large, the two 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph (basically, we can get a final evaluation score at our will).
 
-#### There’s actually yet another devil 😈: the Smatch score uses a heuristic
+#### There’s actually yet another little 😈: Smatch uses a heuristic 
 
 While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy. Suppose you have one(!) large(!) graph and compare it against itself:
 
