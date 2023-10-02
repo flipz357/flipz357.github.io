@@ -72,13 +72,12 @@ Boom 💥💥💥, we have broken the scale!! On a funny side note, the score wi
 
 So let’s conclude that duplicate triples can hack the metric for a pair of graphs, and they duplicate triples are a little devil 😈. Next we see what happens when we evaluate a parser on more items.
 
-
-## There’s actually two little devils 😈😈, and they like to dance together: hacking a full parser evaluation
+### There’s actually two little devils 😈😈, and they like to dance together: hacking a full parser evaluation
 
 The evaluation mode that is usually applied is called “Micro”. Yes right, that’s our second little devil. It actually just becomes a devil when it dances with the duplicate devil (which it did in almost all previous AMR parser evaluations). Micro scoring means that we count the matching triples over the whole data set (as opposed to, e.g., calculating Smatch for every prediction-gold pair and averaging). So this means that by manipulating just a single prediction with our duplicate-hack, we can have any evaluation score that we want! Yes, via micro scoring one super-large graph will dominate the result. If the graph gets even larger the overall evaluation score converges to the result of the large graph.
 
 
-### There’s actually yet another devil 😈: the Smatch score uses a heuristic
+#### There’s actually yet another devil 😈: the Smatch score uses a heuristic
 
 While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy. Suppose you have one(!) large(!) graph, and then you copy it, so you have two graphs:
 
