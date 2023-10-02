@@ -121,7 +121,7 @@ Finally, in the future I guess I'd be interesting to consider more ways of evalu
 
 Smatch++ is introduced in an EACL findings paper that discussed some of the issues raised above. [Here's a bib file](https://github.com/flipz357/smatchpp#citation).
 
-#### References
+## References
 
 <details> 
 <summary> Click to extend </summary>
