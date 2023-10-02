@@ -83,13 +83,27 @@ The evaluation mode that is usually applied is called “Micro averaging”, whi
 
 #### There’s actually yet another devil 😈: the Smatch score uses a heuristic
 
-While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy. Suppose you have one(!) large(!) graph, and then you copy it, so you have two graphs:
+While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy. Suppose you have one(!) large(!) graph and compare it against itself:
 
 ```
-G, G’, where G = G’
+metric(G, G)
 ```
 
-What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a score that is much lower than 100 (e.g., 80), and the score can even differ for repeated calculations 🥴.
+What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a score that is much lower than 100 (e.g., 80), and the score can even differ for repeated calculations 🥴:
+
+```
+# First run:
+
+metric(G, G) = 92
+
+# Second run:
+
+metric(G, G) = 87
+
+# and so on...
+```
+
+Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same).
 
 #### Can we trust previous AMR evaluation results? 🤔
 
