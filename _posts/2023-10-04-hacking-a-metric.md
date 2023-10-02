@@ -22,7 +22,7 @@ When seeing this, can we trust this particular judge again to steer a competitio
 
 In our scenario, participants are AMR parsers, the meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should actually look (reference). The salt are so-called *duplicate-triples*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate triples. And that’s where most of the trouble starts.
 
-# Hacking the AMR evaluation metric
+# Hacking the AMR evaluation metric 🕵️‍♀️
 
 Let's get right down to business. Say a reference graph (what we want to have) was “the boy wants that the girl believes him”
 
@@ -41,7 +41,7 @@ While a prediction here expresses “The duck wants (something)”.
   	:ARG0 (d / duck))
 ```
  
-We score this with the Smatch metric. It counts the structural triple matches and normalizes them with an F-score, between 0 and 1, which for convenience we put between 0 and 100. The metric should be low, since the graphs are quite different. And it kind of is:
+We score this with the Smatch metric. It counts the structural triple matches and normalizes them with an F-score, between 0 and 1, which for convenience we put between 0 and 100. We crawl the latest version of [Smatch from github](https://github.com/snowblink14/smatch) (we verified the same outcome with earlier versions, too). Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
 
 ```
 >>> F-score: 46
@@ -94,7 +94,7 @@ What should the metric do? Of course it should return a score of 100, since the 
 
 #### Can we trust previous AMR evaluation results? 🤔
 
-Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, many of them also used another Smatch implementation that removes duplicate triples and thus fixes the first two little devils. I also can personally confirm through experience that the AMR parsers have gotten a lot stronger since 2015, and this is also reflected by the metric. So the overall progress that the metric showed us over the recent years is not wrong in any way. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
+Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, some of them seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate triples and thus fixes the first two little devils. I also can personally confirm through experience that the AMR parsers have gotten a lot stronger since 2015, and this is also reflected by the metric. So the overall progress that the metric showed us over the recent years is not wrong in any way. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
 
 # Can we do better?
 
