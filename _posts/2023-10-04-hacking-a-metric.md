@@ -51,9 +51,9 @@ Now we add a bit of “salt” to our prediction, we're goona twice repeat that 
 
 ```
 (w / want-01
-  	:ARG0 (d / duck)
-            :ARG0 d
-            :ARG0 d)
+      :ARG0 (d / duck)
+      :ARG0 d
+      :ARG0 d)
 ```
 
 We score this again with the Smatch metric. It should also be low, since the graphs are totally different.
