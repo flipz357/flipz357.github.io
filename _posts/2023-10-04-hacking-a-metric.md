@@ -75,7 +75,7 @@ Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) 
    It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will ever grow (due to it being normalized by the size of the reference graph which doesn’t change in size): x -> inf, 2 * x * 100 / (100 + x) = 200.
 </details>
 
-So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on more items.
+So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a set of pairs (that is, a basic parser evaluation setup).
 
 #### There’s actually two little devils 😈😈, and they work together: hacking a full parser evaluation by manipulating a single pair
 
