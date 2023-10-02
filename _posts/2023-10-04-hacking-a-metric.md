@@ -99,7 +99,7 @@ Mostly, I would say yes. Even though we now have seen that we can hack the full 
 
 Yes 😊! And only little steps need to be taken for starters. First, we should
 
-- Use Smatchpp instead of Smatch. Smatchpp has **an optimal solver**, and standardizes AMRs. It fixes all problems that are described above. It also provides macro scoring on top of micro scoring.
+- Use Smatchpp instead of Smatch. Smatchpp has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
 We should also consider to:
 
