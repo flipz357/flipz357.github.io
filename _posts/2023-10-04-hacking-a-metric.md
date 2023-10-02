@@ -85,13 +85,13 @@ Actually, micro averaging for getting a final parser evaluation score is perfect
 
 #### There’s actually yet another little 😈: Smatch uses a heuristic 
 
-While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy. Suppose you have one(!) large(!) graph and compare it against itself:
+While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have one(!) large(!) graph and compare it against itself:
 
 ```
 metric(G, G)
 ```
 
-What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram VanRoy shows in this [github issue](https://github.com/snowblink14/smatch/issues/43), hill-climbing Smatch can return a different score, which can also differ much for repeated calculations 🥴:
+What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram shows, hill-climbing can return a different score, which can also differ significantly over repeated calculations 🥴:
 
 ```
 # First run:
