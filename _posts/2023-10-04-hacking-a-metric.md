@@ -41,7 +41,7 @@ While a prediction here expresses “The duck wants (something)”.
   	:ARG0 (d / duck))
 ```
  
-We score this with the Smatch metric. It counts the structural triple matches and normalizes them with an F-score, between 0 and 1, which for convenience we put between 0 and 100. We crawl the latest version of [Smatch from github](https://github.com/snowblink14/smatch) (we verified the same outcome with earlier versions, too). Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
+We score this with the Smatch metric. It counts the structural triple matches and normalizes them with an F-score, between 0 and 1, which for convenience we put between 0 and 100. We crawl the latest version of [Smatch from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
 
 ```
 >>> F-score: 46
