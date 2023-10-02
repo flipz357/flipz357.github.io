@@ -93,14 +93,12 @@ What should the metric do? Of course it should return a score of 100, since the 
 
 ```
 # First run:
-
-metric(G, G) = 92
+>>> F-score: 92
 
 # Second run:
+>>> F-score: 87
 
-metric(G, G) = 87
-
-# and so on...
+...
 ```
 
 Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same).
