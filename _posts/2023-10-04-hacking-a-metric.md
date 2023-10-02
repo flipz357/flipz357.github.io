@@ -12,7 +12,7 @@ TLDR, in this post we will see that:
 
 # Introduction
 
-While this post is written for folks who have a little prior understanding in Abstract Meaning Representation (AMR), I’ll start with an analogy to better picture the issue (If you’ve prior AMR knowledge, feel free to jump to the next section).
+AMR parsing is a fun task, where we try to map text onto little graphs that describe their meaning explicitly, so called Abstract Meaning Representations (AMRs). While this post is written for folks who have a little prior understanding in AMR, I’ll start with an analogy to better picture the issue (If you’ve prior AMR knowledge, feel free to jump to the next section).
 
 Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge now almost touches 85. Since their performance got objectively better, it looks like the judge’s assessment is good.
 
@@ -113,6 +113,8 @@ We should also consider to:
 Some of the considerations in this post and Smatch++ are described in my EACL findings paper, so if you'd like to cite something, [here's a bib](https://github.com/flipz357/smatchpp#citation)
 
 #### References
+
+[Abstract Meaning Representation for Sembanking](https://aclanthology.org/W13-2322) (Banarescu et al., LAW 2013)
 
 [Smatch: an Evaluation Metric for Semantic Feature Structures](https://aclanthology.org/P13-2131) (Cai & Knight, ACL 2013)
 
