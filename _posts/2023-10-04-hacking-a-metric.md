@@ -62,13 +62,13 @@ We score this again with the Smatch metric. It should also be low, since the gra
 >>> F-score: 67
 ```
 
-Okay, well, let’s see how far we can go, we add the edge (w, ARG0, d) ten further times.
+Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) ten further times. That's the result:
 
 ```
 >>> F-score: 120.
 ```
 
-💥💥💥, folks, we just broke the scale, 100 was supposed to be the upper limit! On a funny side note, when adding more duplicates, the score will converge to 200. Here's a little question for the readers: 
+💥💥💥, folks, we just broke the scale... 100 was supposed to be the upper limit! On a funny side note, when adding more duplicates, the score will converge to 200. Here's a little question for the readers: 
 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
