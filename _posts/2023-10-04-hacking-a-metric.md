@@ -101,7 +101,7 @@ What should the metric do? Of course it should return a score of 100, since the 
 >>> F-score: 87
 ```
 
-Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same).
+Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same). 
 
 #### Can we trust previous AMR evaluation results? 🤔
 
@@ -111,7 +111,7 @@ Mostly, I would say yes. Even though we're now aware of crucial vulnerabilities 
 
 Yes 😊! And only a little step needs to be taken for starters:
 
-- Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
+- Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver** (it is not a heuristic), and **standardizes AMRs**. With this it fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
 Beyond that, I guess I'd be also interesting to consider more ways of evaluating AMRs. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially when parsers powered by LLMs have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ much structurally but express the same meaning. Then structural metrics would assign a low score which goes to show that they're pretty coarse. Here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
 
