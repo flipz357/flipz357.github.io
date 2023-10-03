@@ -4,7 +4,7 @@ title: "How to hack an AMR Parsing evaluation"
 subtitle: "And what to do about it"
 ---
 
-TLDR, in this post we will see that:
+TLDR:
 
 - 🤯 By hacking the [Smatch](https://github.com/snowblink14/smatch) metric we can get *the best possible score on the benchmark* 🚀. 
 
@@ -12,15 +12,15 @@ TLDR, in this post we will see that:
 
 # Introduction
 
-AMR parsing is a fun task, where we try to map text onto little graphs that describe their meaning explicitly, so called Abstract Meaning Representations (AMRs). Even though this post is written for folks who have a little prior understanding in AMR, I’ll start with an analogy to better picture the issue (If you’ve prior AMR knowledge, feel free to jump to the next section).
+AMR parsing is a fun task, where we map texts onto little graphs that explicate their meaning, so called Abstract Meaning Representations (AMRs). Even though this post is written for folks who have a bit of prior understanding in AMR, I’ll start with an analogy to better picture the issue. If you’ve got prior AMR knowledge, feel free to jump to the next section.
 
-Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge now almost touches 85. Since their performance got objectively better, it looks like the judge’s assessment is good.
+Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge now almost touches 85.
 
-Suddenly, an onlooker starts believing that the judge seems to like meals that are a bit more on the salty side. They decide to participate, cook a basic meal, and add a significant bit more salt than would be appropriate. They receive a very high grade, say 87, winning this year’s contest. Next time, they win again, scoring 90 (how? yes, you guessed it, by adding even more salt). Finally, in the round after that, they just submit a bowl of pure salt… and score 100 points.
+Suddenly, an onlooker finds that the judge seems to like meals that are a bit more on the salty side. They decide to participate, cook a basic meal, and add a significant bit more salt than would be appropriate. They receive a very high grade, say 87, winning this year’s contest. Next time, they win again, scoring 90 (how? yes, you guessed it, by adding even more salt). Finally, in the round after that, they just submit a bowl of pure salt… and score 100 points.
 
-When seeing this, can we trust this particular judge again to steer a competition? Probably not. Then should we declare all past competitions as invalid? No, we shouldn’t do this either, since probably the participants were not aware of the salt trick and so their meals only differed very little in their saltiness, leading, on average, to the mostly objective ratings of their meals.
+When seeing this, can we trust this particular judge again to oversee a competition? Probably not. Should we declare all past competitions as invalid? No, we shouldn’t do this either, since probably the participants were not aware of the salt trick and so their meals only differed very little in their saltiness, leading, on average, to mostly objective ratings of their meals.
 
-In our scenario, participants are AMR parsers, the meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should actually look (reference). The salt are so-called *duplicate-edges*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate edges. And that’s where most of the trouble starts.
+In our scenario, participants are AMR parsers, meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should look (reference). The salt are so-called *duplicate-edges*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate edges. And that’s where most of the trouble starts.
 
 # Hacking the AMR evaluation metric 🕵️‍♀️
 
@@ -72,16 +72,16 @@ Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) 
 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
-   It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will ever grow (due to it being normalized by the size of the reference graph which doesn’t change in size): x -> inf, 2 * x * 100 / (100 + x) = 200.
+   It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will continuosly grow (due to it being normalized by the size of the reference graph which doesn’t change in size). In the harmonic mean of the F-measure we then have: x -> inf, 2 * x * 100 / (100 + x) = 200.
 </details>
 
-So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a set of pairs (that is, a basic parser evaluation setup).
+So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a *set of graph pairs* (that is, a basic parser evaluation setup).
 
-#### There’s actually two little devils 😈😈, and they work together: hacking a full parser evaluation by manipulating a single pair
+#### There’s actually two little devils 😈😈, and they work together: hacking a full parser evaluation by manipulating only a single graph
 
-The evaluation mode that is usually applied is called “Micro averaging”, which is a technique to get a final score over many graph pairs. In fact, micro averaging means that we count the matching edges over all graph pairs before applying the normalization (as opposed to, e.g., getting a score for every prediction-gold pair and averaging). 
+For scoring not a graph pair, but a set of graph pairs, we usually use “Micro averaging” to get a final score. Specifically, micro averaging means that we count the matching edges over all graph pairs before applying the normalization (as opposed to, e.g., getting a score for every prediction-gold pair and averaging). 
 
-Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can dominate the result. If we make this single graph veeery large, the two 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph (basically, we can get a final evaluation score at our will).
+Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can easily dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph (basically, we can get a final evaluation score at our will).
 
 #### There’s actually yet another little 😈: Smatch uses a heuristic 
 
@@ -105,15 +105,15 @@ Of course what we'd actually like to have is a score of 100, always (since the t
 
 #### Can we trust previous AMR evaluation results? 🤔
 
-Mostly, I would say yes. Even though we now have seen that we can hack the full parsing evaluation with a simple trick, there probably hasn’t been an AMR parser that exploited the hack to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and thus fixes the first two little devils. Additionally, everyone that's played around with parsers since the introduction of AMR knows that they've much better. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, and reproducible research, steps should be taken to ensure more valid and meaningful AMR parser evaluations and also parser rankings. So:
+Mostly, I would say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, I guess that everyone that's played around with parsers knows that AMR parsers have gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
 
 # Can we do better?
 
-Yes 😊! And only a little step needs to be taken for starters. Foremost, we should
+Yes 😊! And only a little step needs to be taken for starters:
 
 - Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver**, and **standardizes AMRs**. It fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
-Then I guess I'd be also interesting to consider more ways of evaluating AMRs in the future. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially when parsers powered by LLMs, have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ structurally to a large degree, but they could express almost the same meaning. Then current AMR metrics tend to assign a very low score which goes to show that they're pretty coarse. Here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
+Beyond that, I guess I'd be also interesting to consider more ways of evaluating AMRs. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially when parsers powered by LLMs have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ much structurally but express the same meaning. Then structural metrics would assign a low score which goes to show that they're pretty coarse. Here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
 
 ## Cite this blog post
 
