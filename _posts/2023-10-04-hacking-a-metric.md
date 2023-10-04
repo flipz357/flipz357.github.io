@@ -75,7 +75,7 @@ Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) 
 💥💥💥, folks, we just broke the scale... 100 was supposed to be the upper limit! On a funny side note, when adding more duplicates, the score will converge to 200. Here's a little question for the readers: 
 <details> 
   <summary>Why does the evaluation score converge to 200? </summary>
-   It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will continuosly grow (due to it being normalized by the size of the reference graph which doesn’t change in size). In the harmonic mean of the F-measure we then have: x -> inf, 2 * x * 100 / (100 + x) = 200.
+   It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will continuosly grow (due to it being normalized by the size of the reference graph which doesn’t change in size). In the harmonic mean of the F-measure we then have: lim[x -> inf] 2 * x * 100 / (100 + x) = 200.
 </details>
 <br>
 So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a *set of graph pairs* for benchmarking.
