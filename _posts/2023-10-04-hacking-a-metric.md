@@ -10,7 +10,7 @@ subtitle: "And what to do about it"
 
 TLDR:
 
-- 🤯 By hacking the [Smatch](https://github.com/snowblink14/smatch) metric we can get *the best possible score on the benchmark* 🚀. 
+- 🤯 By exploting vulnerabilities in the [Smatch](https://github.com/snowblink14/smatch) metric we get *the best possible score on the benchmark* 🚀. 
 
 - ✅ For safe evaluation, use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
@@ -86,15 +86,15 @@ For scoring not a graph pair, but a set of graph pairs, we usually use “Micro 
 
 Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can easily dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph.
 
-#### There’s actually yet another little 😈 and it's a heuristic 
+#### There’s actually yet another little 😈: Using a heuristic 
 
-While this devil cannot hack the evaluation as much, it’s still a funny one. Structural graph matching is an NP hard computational problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best graph matching. However, graph matching has lots of local optima, where the heuristic can get stuck in, and so you can never be sure whether the score is correct. This leads to some funny examples, as shown by BramVan Roy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have one(!) large(!) graph and compare it against itself:
+While this devil cannot hack the evaluation as much, it’s still a funny one. Before counting matching edges, we need to align the nodes between the two graphs, and that's an optimization problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best matching. However, there are lots of local optima, where the heuristic can get stuck in, and so we can never be sure about the quality of the solution. This leads to some funny examples, as shown by BramVan Roy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have one(!) large(!) graph and compare it against itself:
 
 ```
 metric(G, G)
 ```
 
-What should the metric do? Of course it should return a score of 100, since the graphs are the same. However, as Bram shows, hill-climbing can return a different score, which can also differ significantly over repeated calculations 🥴:
+What should the metric do? Well, yes, it should return a score of 100, since the graphs are the same. However, as Bram shows, hill-climbing can return a different score, which can also differ significantly over repeated calculations 🥴:
 
 ```
 # First run:
@@ -104,11 +104,11 @@ What should the metric do? Of course it should return a score of 100, since the 
 >>> F-score: 87
 ```
 
-Of course what we'd actually like to have is a score of 100, always (since the two graphs are the exact same). 
+Seeing this, our trust in the evaluation doesn't exactly gets raised, right?
 
 #### Can we trust previous AMR evaluation results? 🤔
 
-Mostly, I would say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, I guess that everyone that's played around with parsers knows that AMR parsers have gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
+Mostly, I'd say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, I guess that everyone that's played around with parsers knows that AMR parsers have gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
 
 ## Can we do better?
 
