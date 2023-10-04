@@ -78,13 +78,13 @@ Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) 
    It’s because of the harmonic mean in the F-score formula. By increasing the matching edges with our duplicate trick, the precision will converge to 100, while the recall will continuosly grow (due to it being normalized by the size of the reference graph which doesn’t change in size). In the harmonic mean of the F-measure we then have: x -> inf, 2 * x * 100 / (100 + x) = 200.
 </details>
 <br>
-So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a *set of graph pairs* (that is, a basic parser evaluation setup).
+⇨ So let’s conclude that duplicate edges, much like a little devil 😈, can confuse the Smatch score for a graph pair. Next we see what happens when we evaluate a parser on a *set of graph pairs* (that is, a basic parser evaluation setup).
 
 #### There’s actually two little devils 😈😈, and they work together: hacking a full parser evaluation by manipulating only a single graph
 
 For scoring not a graph pair, but a set of graph pairs, we usually use “Micro averaging” to get a final score. Specifically, micro averaging means that we count the matching edges over all graph pairs before applying the normalization (as opposed to, e.g., getting a score for every prediction-gold pair and averaging). 
 
-Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can easily dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph (basically, we can get a final evaluation score at our will).
+Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can easily dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph.
 
 #### There’s actually yet another little 😈: Smatch uses a heuristic 
 
