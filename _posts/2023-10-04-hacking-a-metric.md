@@ -28,7 +28,7 @@ In our scenario, participants are AMR parsers, meals are parser predictions (par
 
 ## Hacking the AMR evaluation 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
 
-Let's get down to business. Say a reference graph (what we want to have) was “the boy wants that the girl believes him”
+Let's get down to business. Say a reference graph (what we want to have) was “the boy wants the girl to believe him”
 
 ```
 (w / want-01
