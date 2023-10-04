@@ -124,7 +124,7 @@ Smatch++ is introduced in an EACL findings paper that discussed some of the issu
 
 #### References
 
-<details> 
+<details markdown="1"> 
 <summary> Click to extend </summary>
 
 [Abstract Meaning Representation for Sembanking](https://aclanthology.org/W13-2322) (Banarescu et al., LAW 2013)
