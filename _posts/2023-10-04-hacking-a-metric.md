@@ -10,7 +10,7 @@ subtitle: "And what to do about it"
 
 TLDR:
 
-- 🤯 By exploting vulnerabilities in the [Smatch](https://github.com/snowblink14/smatch) metric we get *the best possible score on the benchmark* 🚀. 
+- 🤯 By exploiting vulnerabilities in the [Smatch](https://github.com/snowblink14/smatch) metric we get *the best possible score on the benchmark* 🚀
 
 - ✅ For safe evaluation, use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
@@ -114,9 +114,9 @@ Mostly, I'd say yes. Even though we're now aware of crucial vulnerabilities in t
 
 Yes 😊! And only a little step needs to be taken for starters:
 
-- Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver** (it is not a heuristic), and **standardizes AMRs**. With this it fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
+- Use [Smatch++](https://github.com/flipz357/smatchpp) instead of Smatch to protect against hacks and randomness. Smatch++ has **an optimal solver** (it's not a heuristic), and **standardizes AMRs**. With this it fixes all problems that are described above ✅. It also provides macro scoring on top of micro scoring to inform us with another score that is less biased by graph size.
 
-Beyond that, I think it'd be also interesting to consider more evaluation methods. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially when parsers powered by LLMs have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ much structurally but express the same meaning. Then structural metrics would assign a low score which goes to show that they're pretty coarse. Here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
+Beyond that, I think it'd be also interesting to consider more evaluation methods. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. If you're interested to learn more, here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
 
 #### Cite this blog post
 
