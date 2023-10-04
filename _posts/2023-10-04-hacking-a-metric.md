@@ -12,7 +12,7 @@ TLDR:
 
 # Introduction
 
-AMR parsing is a fun task, where we map texts onto little graphs that explicate their meaning, so called Abstract Meaning Representations (AMRs). Even though this post is written for folks who have a bit of prior understanding in AMR, I’ll start with an analogy to better picture the issue. If you’ve got prior AMR knowledge, feel free to jump to the next section.
+AMR parsing is a fun task, where we map texts onto little graphs that explicate their meaning, so called Abstract Meaning Representations (AMRs). Even though this post is written for folks who have a bit of prior understanding in AMR, I’ll start with an analogy to better picture the issue. If you’ve got prior AMR knowledge, feel free to jump to the [next section](#hacking-the-amr-eval).
 
 Imagine a cooking contest that takes place regularly, say, once a year. In all events, we have the same judge, participants are amateurs, meals are scored on 0 to 100, with 100 meaning “it can’t possibly get better”. Over the years, the participants got objectively better, and also their average score issued by the judge now almost touches 85.
 
@@ -22,7 +22,7 @@ When seeing this, can we trust this particular judge again to oversee a competit
 
 In our scenario, participants are AMR parsers, meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should look (reference). The salt are so-called *duplicate-edges*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate edges. And that’s where most of the trouble starts.
 
-# Hacking the AMR evaluation metric 🕵️‍♀️
+# Hacking the AMR evaluation metric 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
 
 Let's get down to business. Say a reference graph (what we want to have) was “the boy wants that the girl believes him”
 
