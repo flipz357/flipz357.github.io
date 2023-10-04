@@ -4,7 +4,9 @@ title: "How to hack an AMR Parsing evaluation"
 subtitle: "And what to do about it"
 ---
 
-{{ page.title }}
+# {{ page.title }}
+
+...*and what to do about it*.
 
 TLDR:
 
@@ -12,7 +14,7 @@ TLDR:
 
 - ✅ For safe evaluation, use the [Smatch++](https://github.com/flipz357/smatchpp) metric.
 
-# Introduction
+## Introduction
 
 AMR parsing is a fun task, where we map texts onto little graphs that explicate their meaning, so called Abstract Meaning Representations (AMRs). Even though this post is written for folks who have a bit of prior understanding in AMR, I’ll start with an analogy to better picture the issue. If you’ve got prior AMR knowledge, feel free to jump to the [next section](#hacking-the-amr-eval).
 
@@ -24,7 +26,7 @@ When seeing this, can we trust this particular judge again to oversee a competit
 
 In our scenario, participants are AMR parsers, meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should look (reference). The salt are so-called *duplicate-edges*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate edges. And that’s where most of the trouble starts.
 
-# Hacking the AMR evaluation 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
+## Hacking the AMR evaluation 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
 
 Let's get down to business. Say a reference graph (what we want to have) was “the boy wants that the girl believes him”
 
@@ -109,7 +111,7 @@ Of course what we'd actually like to have is a score of 100, always (since the t
 
 Mostly, I would say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, I guess that everyone that's played around with parsers knows that AMR parsers have gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
 
-# Can we do better?
+## Can we do better?
 
 Yes 😊! And only a little step needs to be taken for starters:
 
@@ -117,11 +119,11 @@ Yes 😊! And only a little step needs to be taken for starters:
 
 Beyond that, I think it'd be also interesting to consider more evaluation methods. E.g., we might use other metrics (there are other metrics), perform some human analysis of system outputs, or be creative and think of some downstream task evaluations. Clearly, structural matching of graphs in many situations isn’t enough, especially when parsers powered by LLMs have gotten really good. To see a simple failure case of structural matching, just consider AMRs of (near)paraphrase sentences. The graphs can differ much structurally but express the same meaning. Then structural metrics would assign a low score which goes to show that they're pretty coarse. Here's some of our research on that: 1. [comparing strong AMR parsers](https://aclanthology.org/2022.eval4nlp-1.4/), 2. [Other ways of measuring AMR similarity](https://aclanthology.org/2021.tacl-1.85/). There's recently also been interesting papers such as this one on [neural AMR matching](https://aclanthology.org/2023.acl-long.892/) and two works on AMR parsing with interesting parts on evaluation. [1.](https://aclanthology.org/2023.acl-short.137) and [2.](https://aclanthology.org/2023.findings-acl.125).
 
-## Cite this blog post
+#### Cite this blog post
 
 Smatch++ is introduced in an EACL findings paper that discussed some of the issues raised above. [Here's a bib file](https://github.com/flipz357/smatchpp#citation).
 
-## References
+#### References
 
 <details> 
 <summary> Click to extend </summary>
