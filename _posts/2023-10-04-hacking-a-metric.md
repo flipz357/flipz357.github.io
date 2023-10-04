@@ -22,7 +22,7 @@ When seeing this, can we trust this particular judge again to oversee a competit
 
 In our scenario, participants are AMR parsers, meals are parser predictions (parses), and the judge is a metric (Smatch) based on a gold standard of how the predictions should look (reference). The salt are so-called *duplicate-edges*, which are graph edges that occur more than once. While they do not make much sense (they do not add information), the metric that’s been used for scoring parsers does accept predictions that have duplicate edges. And that’s where most of the trouble starts.
 
-# Hacking the AMR evaluation metric 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
+# Hacking the AMR evaluation 🕵️‍♀️ <a id="hacking-the-amr-eval"></a>
 
 Let's get down to business. Say a reference graph (what we want to have) was “the boy wants that the girl believes him”
 
