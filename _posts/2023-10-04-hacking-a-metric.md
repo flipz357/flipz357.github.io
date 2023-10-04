@@ -6,7 +6,7 @@ subtitle: "And what to do about it"
 
 # {{ page.title }}
 
-...*and what to do about it*.
+**...*and what to do about it*.**
 
 TLDR:
 
