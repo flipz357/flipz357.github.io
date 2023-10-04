@@ -45,7 +45,7 @@ While a prediction here expresses “The duck wants (something)”.
   	:ARG0 (d / duck))
 ```
  
-We're gonna score this graph with the *Smatch metric*, crawling the latest version of [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches (after it has calculated a graph alignment) and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
+We're gonna score this graph with the *Smatch metric*, crawling the latest version of [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
 
 ```
 >>> F-score: 46
