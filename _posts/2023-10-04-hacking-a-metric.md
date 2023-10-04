@@ -84,7 +84,7 @@ So let’s conclude that duplicate edges, much like a little devil 😈, can con
 
 For scoring not a graph pair, but a set of graph pairs, we usually use “Micro averaging” to get a final score. Specifically, micro averaging means that we count the matching edges over all graph pairs before applying the normalization (as opposed to, e.g., getting a score for every prediction-gold pair and averaging). 
 
-Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a super-large graph can easily dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the overall parser evaluation score converges to the result of the large graph.
+Actually, micro averaging for getting a final parser evaluation score is perfectly fine -- were it not be for the duplicate edge issue. In that case, micro averaging becomes another little 😈 and lets us change at will the overall score, just by manipulating a single graph pair. Remember that we count edges over all graph pairs, and so a single large graph can dominate the result. If we make this single graph veeeery large, the two little 😈😈 are gonna make big trouble and the parser evaluation score converges to the result of the single graph.
 
 #### There’s actually yet another little 😈: Using a heuristic 
 
