@@ -108,7 +108,7 @@ Seeing this, our trust in the evaluation doesn't exactly gets raised, right?
 
 #### Can we trust previous AMR evaluation results? 🤔
 
-Mostly, I'd say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, I guess that everyone that's played around with parsers knows that AMR parsers have gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong at all. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
+Mostly, I'd say yes. Even though we're now aware of crucial vulnerabilities in the evaluation, there probably hasn’t been an AMR parser that has exploited them to a significant degree. Looking at parsing papers, some of them also seem to use [another Smatch implementation](https://github.com/ChunchuanLv/amr-evaluation-tool-enhanced) that removes duplicate edges and drives away the first two 😈😈. Also, AMR parsers have obviously gotten much better since their introduction in 2014. So the overall progress that the metric showed us over the recent years doesn't seem wrong. However, for the sake of fairness, reproducible research, and overall trust in evaluation scores, steps should be taken to ensure improved and safe evaluations. So:
 
 ## Can we do better?
 
