@@ -4,6 +4,8 @@ title: "How to hack an AMR Parsing evaluation"
 subtitle: "And what to do about it"
 ---
 
+{{ page.title }}
+
 TLDR:
 
 - 🤯 By hacking the [Smatch](https://github.com/snowblink14/smatch) metric we can get *the best possible score on the benchmark* 🚀. 
