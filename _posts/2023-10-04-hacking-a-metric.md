@@ -45,7 +45,7 @@ While a prediction here expresses “The duck wants (something)”.
   	:ARG0 (d / duck))
 ```
  
-We're gonna score this graph with the *Smatch metric*, crawling the latest version [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, for our example, the metric should be low, since the graphs are quite different. And it kind of is:
+We're gonna score this graph with the *Smatch metric*, crawling the latest version [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, for our example the metric should be low, since the graphs are quite different. And it kind of is:
 
 ```
 >>> F-score: 46
@@ -69,7 +69,7 @@ We score this again with the Smatch metric. It should also be low, since the gra
 Okay, well, let’s see how far we can push it, we'll add the edge (w, ARG0, d) ten further times. That's the result:
 
 ```
->>> F-score: 120.
+>>> F-score: 120
 ```
 
 💥💥💥, folks, we just broke the scale... 100 was supposed to be the upper limit! On a funny side note, when adding more duplicates, the score will converge to 200. Here's a little question for the readers: 
