@@ -88,7 +88,7 @@ Actually, micro averaging for getting a final parser evaluation score is perfect
 
 #### There’s actually yet another little 😈: Using a heuristic 
 
-While this devil cannot hack the evaluation as much, it’s still a funny one. Before counting matching edges, we need to align the nodes between the two graphs, and that's an optimization problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best matching. However, there are lots of local optima, where the heuristic can get stuck in, and so we can never be sure about the quality of the solution. This leads to some funny examples, as shown by Bram Vanroy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have only one(!) graph and compare it against itself:
+While this devil cannot hack the evaluation as much, it’s still a funny one. Before counting matching edges, we need to align the nodes between the two graphs, and that's an optimization problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best matching. However, there are lots of local optima, where the heuristic can get stuck in, and so we can never be sure about the quality of the solution. This leads to some funny examples, as shown by Bram Vanroy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have only one graph and compare it against itself:
 
 ```
 metric(G, G)
