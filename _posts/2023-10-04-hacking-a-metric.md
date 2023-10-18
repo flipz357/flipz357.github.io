@@ -45,7 +45,7 @@ While a prediction here expresses “The duck wants (something)”.
   	:ARG0 (d / duck))
 ```
  
-We're gonna score this graph with the *Smatch metric*, crawling the latest version [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, for our example the metric should be low, since the graphs are quite different. And it kind of is:
+We're gonna score this graph with the *Smatch metric*, crawling the latest version [from github](https://github.com/snowblink14/smatch) (commit 41, but we verified the same outcome with earlier versions, too). Simply put, Smatch counts edge matches and normalizes the count with an F-score, returning a number between 0 and 1, which for convenience we put between 0 and 100. Anyway, in our example the metric should be low, since the graphs are quite different. And it kind of is:
 
 ```
 >>> F-score: 46
@@ -60,7 +60,7 @@ Now we add a bit of “salt” to our prediction, we're gonna twice repeat that 
       :ARG0 d)
 ```
 
-We score this again with the Smatch metric. It should also be low, since the graphs are totally different.
+We score this again with the Smatch metric. It should also be low, since the graphs haven't gotten more similar.
 
 ```
 >>> F-score: 67
@@ -88,7 +88,7 @@ Actually, micro averaging for getting a final parser evaluation score is perfect
 
 #### There’s actually yet another little 😈: Using a heuristic 
 
-While this devil cannot hack the evaluation as much, it’s still a funny one. Before counting matching edges, we need to align the nodes between the two graphs, and that's an optimization problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best matching. However, there are lots of local optima, where the heuristic can get stuck in, and so we can never be sure about the quality of the solution. This leads to some funny examples, as shown by Bram Vanroy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have one(!) large(!) graph and compare it against itself:
+While this devil cannot hack the evaluation as much, it’s still a funny one. Before counting matching edges, we need to align the nodes between the two graphs, and that's an optimization problem. For practicality (I guess), researchers have used a hill-climber in Smatch to determine the best matching. However, there are lots of local optima, where the heuristic can get stuck in, and so we can never be sure about the quality of the solution. This leads to some funny examples, as shown by Bram Vanroy in [this issue](https://github.com/snowblink14/smatch/issues/43). Suppose you have only one(!) graph and compare it against itself:
 
 ```
 metric(G, G)
