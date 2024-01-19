@@ -1,6 +1,6 @@
 ## Juri Opitz
 
-Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg university, where I was advised by Anette Frank.
+Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg University, where I was advised by Anette Frank.
 
 I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations.
 
