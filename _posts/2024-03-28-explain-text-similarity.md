@@ -2,7 +2,6 @@
 title: What’s in a %&!$# vector? 
 subtitle: Explaining text embeddings and text similarity
 layout: default
-published: true
 ---
 
 # {{ page.title }}
@@ -59,7 +58,7 @@ Like in every method, there's may be also some downsides to this approach: we’
 
 ## Other approaches:
 
-There's also interesting other papers about vectors and interpretability: Vivi Nastase shows that [matrix structures](https://arxiv.org/abs/2312.09890) can potentially capture some phenomena better than vectors. Jannis Vasmas and Rico Sennrich show that to detect meaningful differences between tokens of documents, it’s quite effective to simply use a greedy [token matching](https://arxiv.org/abs/2305.13303) similar to what’s done by BERTScore.
+There's also interesting other papers about vectors and interpretability: Vivi Nastase shows that [matrix structures](https://arxiv.org/abs/2312.09890) can potentially capture some phenomena better than vectors. Jannis Vasmas and Rico Sennrich show that to detect meaningful differences between tokens of documents, it’s quite effective to simply use a greedy [token matching](https://arxiv.org/abs/2305.13303) similar to what’s done by [BERTScore](https://arxiv.org/abs/1904.09675).
 
 ## References
 
