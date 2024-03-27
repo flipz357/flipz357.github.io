@@ -55,9 +55,11 @@ The sparkling stars stand for some magic (that is math) that’s happening in th
 
 Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. All this can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
 
-### Other approaches:
+## Other approaches:
 
 There's also interesting other papers about vectors and interpretability: Vivi Nastase shows that [matrix structures](https://arxiv.org/abs/2312.09890) can potentially capture some phenomena better than vectors. Jannis Vasmas and Rico Sennrich show that to detect meaningful differences between tokens of documents, it’s quite effective to simply use a greedy [token matching](https://arxiv.org/abs/2305.13303) similar to what’s done by BERTScore.
+
+## References
 
 <details markdown="1"> 
 <summary> Click to extend </summary>
@@ -66,9 +68,9 @@ There's also interesting other papers about vectors and interpretability: Vivi N
 
 [An Attribution Method for Siamese Encoders](https://aclanthology.org/2023.emnlp-main.980) (Moeller et al., EMNLP 2023)
 
-
 </details>
 
+## Footnotes
 
 [^1]: The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf).
 [^2]: A [later paper](https://arxiv.org/abs/2402.02883) by the same authors seems to mitigate some of these concerns.
