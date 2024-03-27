@@ -1,5 +1,5 @@
 ---
-title: What’s in a %&!$# vector? Explaining text embeddings and text similarity
+title: What’s in a vector? Explaining text embeddings and text similarity
 subtitle: Two approaches: Metric distillation and integradeted gradients
 layout: post
 published: false
