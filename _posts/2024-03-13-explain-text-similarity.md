@@ -10,8 +10,7 @@ published: true
 TLDR: 
 
 - We're gonna check out two methods for explaining text vectors and text similarity.
-- One method aims at explaining decisions directly (decision space explanation)
-- The other methods explains the contribution of input tokens (input space explanation)
+- One aims at explaining decisions, the other highlights tokens 
 
 ## Intro
 
