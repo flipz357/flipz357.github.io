@@ -9,9 +9,9 @@ published: true
 
 ## Intro: What’s in a $&!#\*[^1] vector?
 
-Capturing the meaning of a text as a vector (aka representation, or embedding, if you will) has been a long standing goal of NLP research. With good vectors, we can use some simple algebra for performing important NLÜ tasks efficiently: search/information retrieval, clustering, evaluating generated text, retrieval-augmented generation with LLMs (RAG), and so on. 
+Capturing the meaning of a text as a vector (aka representation, or embedding, if you will) is an important goal of NLP research. With good vectors, we can perform important NLP tasks efficiently: search/information retrieval, clustering, evaluation, retrieval-augmented generation with LLMs (RAG), classification, and what not. 
 
-Obviously, in the age of BERT and LLMs, we do have methods that can map text to such a useful vector. While that pretty cool and also useful, at one point, we may have to **explain why our model considers two documents to be similar**, or not. As an hypothetical edge case, think of a court where we’d have to argue why our model returned a “wrong” text that somehow led to some sort of legal mess further downstream.
+Obviously, in the age of BERT and LLMs, we do have methods that can well map text to a vector. While that's pretty cool and also useful, at one point, we may have to **explain why our model considers two texts are similar**, or not. As an hypothetical edge case, think of a court where we’d have to argue why our model returned a “wrong” text that somehow led to some sort of legal mess further downstream.
 
 So let’s dive into two cool methods for interpretation of embeddings. 
 
