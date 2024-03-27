@@ -2,7 +2,7 @@
 title: What’s in a %&!$# vector? Explaining text embeddings and text similarity
 subtitle: Explaining text embeddings and text similarity
 layout: default
-published: false
+published: true
 ---
 
 # {{ page.title }}
@@ -31,7 +31,7 @@ Us humans want to have higher-level explanations: *“These documents are simila
 
 The basic idea is outlined in this figure:
 
-[Vector partitioning](/assets/img/blog/partition-crop.png)
+![Vector partitioning](/assets/img/blog/partition-crop.png)
 
 We divide the text embeddings into different sub-vectors that capture different attributes that we’re interested in! In the end, we can trace the whole similarity computation back to our high-level features. In the example, the overall similarity is 0.8. The sentences have the same topic (1.0), but opposing polarity (0.0). So we can perform all standard tasks with the full embedding, but also can do finer tasks such as searching or clustering embeddings for specific aspects we’re interested in. Indeed, these sub-embeddings or features compose the full text representation, so we can exactly trace how they’re used and weighted!
 
@@ -41,7 +41,7 @@ A strength of this approach may be also a downside: There's lots of freedom in h
 
 This is a cool work by Lukas Moeller et al. For input space explanation, we’d like to know the input features that have the most impact on a decision. It’s sort of the most popular interpretability goal, where people have used attention weights, gradient analysis, Shapley values, and so on, to highlight the important input features that a model thinks are important. This is about how it’s done:
 
-[Token attribution](/assets/img/blog/attribution-crop.png)
+![Token attribution](/assets/img/blog/attribution-crop.png)
 
 The sprinkling stars stand for some magic (that is math) that’s happening in the process that hands us a so-called attribution matrix. This matrix approximates the full similarity function of two documents, in a decomposed way! That means, we can check out how every pair of words contributes to the decision of our overall similarity. How is this matrix found, what’s the magic? On a high level, it’s found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function kind of, we can call this approach faithful. 
 
