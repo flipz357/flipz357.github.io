@@ -7,7 +7,7 @@ published: false
 
 # {{ page.title }}
 
-# Intro: What’s in a $&!#\*[^1] vector?
+## Intro: What’s in a $&!#\*[^1] vector?
 
 Capturing the meaning of a text as a vector (aka representation, or embedding, if you will) has been a long standing goal of NLP research. With good vectors, we can use some simple algebra for performing important NLÜ tasks efficiently: search/information retrieval, clustering, evaluating generated text, retrieval-augmented generation with LLMs (RAG), and so on. 
 
