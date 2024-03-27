@@ -30,7 +30,7 @@ We’ll call those two:
 
 Don’t worry, **we’ll keep this post light-hearted**, so that you won’t need to digest much math for understanding.
 
-## Method 1): Decision space explanation via metric distillation
+## Decision space explanation via metric distillation
 
 This is based on a work written by me and Anette Frank. A motivation was to get some high-level explanation on similarity decisions and compose the overall similarity in a faithful way from aspectual sub-similarities.  
 Us humans want to have higher-level explanations: *“These documents are similar because they’re about the same topics”*. *“These documents are dissimilar because they’re contradicting each other”*. And so on.
@@ -43,7 +43,7 @@ We divide the text embeddings into different sub-vectors that capture different 
 
 A strength of this approach may be also a downside: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration as to what works and what not.
 
-## Method 2): Input space explanation via integrated gradients
+## Input space explanation via integrated gradients
 
 This is a cool work by Lukas Moeller et al. For input space explanation, we’d like to know the input features that have the most impact on a decision. It’s sort of the most popular interpretability goal, where people have used attention weights, gradient analysis, Shapley values, and so on, to highlight the important input features that a model thinks are important. This is about how it’s done:
 
