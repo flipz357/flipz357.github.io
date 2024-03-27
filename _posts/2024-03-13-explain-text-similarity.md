@@ -9,7 +9,7 @@ published: true
 
 TLDR: 
 
-- We're gonna check out two methods for explaining text vectors and text similarity.
+- We're gonna check out two methods for explaining text similarity.
 - One aims at explaining decisions, the other highlights tokens 
 
 ## Intro
