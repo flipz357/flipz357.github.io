@@ -2,7 +2,7 @@
 title: What’s in a %&!$# vector? Explaining text embeddings and text similarity
 subtitle: Explaining text embeddings and text similarity
 layout: default
-published: true
+published: false
 ---
 
 # {{ page.title }}
