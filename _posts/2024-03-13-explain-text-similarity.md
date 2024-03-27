@@ -32,14 +32,14 @@ Don’t worry, **we’ll keep this post light-hearted**, so that you won’t nee
 
 ## Decision space explanation via metric distillation
 
-This is based on a work written by me and Anette Frank. A motivation was to get some high-level explanation on similarity decisions and compose the overall similarity in a faithful way from aspectual sub-similarities.  
+This was basically the last part of my PhD thesis. A motivation was to get some high-level explanation on similarity decisions and compose the overall similarity in a faithful way from aspectual sub-similarities.  
 Us humans want to have higher-level explanations: *“These documents are similar because they’re about the same topics”*. *“These documents are dissimilar because they’re contradicting each other”*. And so on.
 
-The basic idea is outlined in this figure:
+Let's sketch the basic idea in this figure:
 
 ![Vector partitioning](/assets/img/blog/partition-crop.png)
 
-We divide the text embeddings into different sub-vectors that capture different attributes that we’re interested in! In the end, we can trace the whole similarity computation back to our high-level features. In the example, the overall similarity is 0.8. The sentences have the same topic (1.0), but opposing polarity (0.0). So we can perform all standard tasks with the full embedding, but also can do finer tasks such as searching or clustering embeddings for specific aspects we’re interested in. Indeed, these sub-embeddings or features compose the full text representation, so we can exactly trace how they’re used and weighted!
+We divide the text embeddings into different sub-vectors that capture different attributes that we’re interested in! In the end, we can trace the full similarity computation back to our high-level features. In the example, the overall similarity is 0.8, explained as follows: the sentences have the same topic (1.0), but opposing polarity (0.0). These sub-vectors (aka sub-embeddings, or features) compose the full text representation, so we can exactly trace how they’re weighted in the final score!
 
 A strength of this approach may be also a downside: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration as to what works and what not.
 
