@@ -1,11 +1,17 @@
 ---
-title: What’s in a %&!$# vector? Explaining text embeddings and text similarity
+title: What’s in a %&!$# vector? 
 subtitle: Explaining text embeddings and text similarity
 layout: default
 published: true
 ---
 
 # {{ page.title }}
+
+TLDR: 
+
+- We're gonna check out two methods for explaining text vectors and text similarity.
+- One method aims at explaining decisions directly (decision space explanation)
+- The other methods explains the contribution of input tokens (input space explanation)
 
 ## Intro: What’s in a $&!#\*[^1] vector?
 
