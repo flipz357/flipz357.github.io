@@ -47,11 +47,13 @@ A strength of this approach may be also a downside: There's lots of freedom in h
 
 ## Input space explanation via integrated gradients
 
-This is a cool work by Lukas Moeller et al. For input space explanation, we’d like to know the input features that have the most impact on a decision. It’s sort of the most popular interpretability goal, where people have used attention weights, gradient analysis, Shapley values, and so on, to highlight the important input features that a model thinks are important. This is about how it’s done:
+This is a cool work by Lukas Moeller et al. Her we’d like to know the *input* features that have the most impact on a decision. It’s sort of one of the most popular interpretability goals, where people want to highlight the input features that a model thinks are important. This is about how it’s done in this case:
 
 ![Token attribution](/assets/img/blog/attribution-crop.png)
 
-The sparkling stars stand for some magic (that is math) that’s happening in the process. It gives us a so-called attribution matrix. The matrix approximates the full similarity function of two texts, in a token-decomposed way! That means, we can check out how every pair of words contributes to the overall similarity. What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function. 
+The sparkling stars stand for some magic (that is math) that’s happening in the process. It gives us a so-called attribution matrix. The matrix approximates the full similarity function of two texts, in a token-decomposed way! That means, we can check out how every pair of words contributes to the overall similarity. 
+
+What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function. 
 
 Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. All this can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
 
