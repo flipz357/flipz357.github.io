@@ -13,7 +13,7 @@ TLDR:
 - One method aims at explaining decisions directly (decision space explanation)
 - The other methods explains the contribution of input tokens (input space explanation)
 
-## Intro: What’s in a $&!#\*[^1] vector?
+## Intro: A $&!#\*[^1] vector
 
 Capturing the meaning of a text as a vector (aka representation, or embedding, if you will) is an important goal of NLP research. With good vectors, we can perform important NLP tasks efficiently: search/information retrieval, clustering, evaluation, retrieval-augmented generation with LLMs (RAG), classification, and what not. 
 
