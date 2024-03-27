@@ -9,7 +9,7 @@ published: true
 
 TLDR: 
 
-- We're gonna check out two methods for explaining text similarity.
+- We're gonna check out two methods for explaining text embeddings
 - One aims at explaining decisions, the other highlights tokens 
 
 ## Intro
@@ -51,9 +51,9 @@ This is a cool work by Lukas Moeller et al. For input space explanation, we’d 
 
 ![Token attribution](/assets/img/blog/attribution-crop.png)
 
-The sprinkling stars stand for some magic (that is math) that’s happening in the process that hands us a so-called attribution matrix. This matrix approximates the full similarity function of two documents, in a decomposed way! That means, we can check out how every pair of words contributes to the decision of our overall similarity. How is this matrix found, what’s the magic? On a high level, it’s found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function kind of, we can call this approach faithful. 
+The sparkling stars stand for some magic (that is math) that’s happening in the process. It gives us a so-called attribution matrix. The matrix approximates the full similarity function of two texts, in a token-decomposed way! That means, we can check out how every pair of words contributes to the overall similarity. What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function. 
 
-Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. All this can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs. A [later paper](https://arxiv.org/abs/2402.02883) by the same authors seems to mitigate some of these concerns.
+Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. All this can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
 
 ### Other approaches:
 
@@ -70,7 +70,8 @@ There's also interesting other papers about vectors and interpretability: Vivi N
 </details>
 
 
-[^1]: The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf)
+[^1]: The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf).
+[^2]: A [later paper](https://arxiv.org/abs/2402.02883) by the same authors seems to mitigate some of these concerns.
 
 
 
