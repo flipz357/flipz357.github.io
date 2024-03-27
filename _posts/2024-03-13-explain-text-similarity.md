@@ -68,7 +68,7 @@ There's also interesting other papers about vectors and interpretability: Vivi N
 </details>
 
 
-[^1] The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf)
+[^1]: The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf)
 
 
 
