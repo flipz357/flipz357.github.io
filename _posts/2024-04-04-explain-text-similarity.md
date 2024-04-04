@@ -10,7 +10,9 @@ published: true
 TLDR: 
 
 - We're gonna check out two methods for explaining text embeddings
-- One aims at explaining decisions, the other highlights tokens 
+- One aims at explaining decisions, the other highlights tokens
+
+Keyphrases: Text embeddings, explainability, explainable similarity, representation learning
 
 ## Intro
 
