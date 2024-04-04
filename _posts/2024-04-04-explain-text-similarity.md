@@ -48,7 +48,7 @@ We divide the text embeddings into different sub-vectors that capture different 
 
 A strength of this approach may be also a downside: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration as to what works and what not.
 
-## Input space explanation via integrated gradients
+## Input space explanation with integration
 
 This is a cool work by Lukas Moeller et al. Her we’d like to know the *input* features that have the most impact on a decision. It’s sort of one of the most popular interpretability goals, where people want to highlight the input features that a model thinks are important. This is about how it’s done in this case:
 
