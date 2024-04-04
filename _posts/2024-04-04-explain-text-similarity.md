@@ -36,8 +36,8 @@ Don’t worry, **we’ll keep this post light-hearted**, so that you won’t nee
 
 ## Decision space explanation via metric distillation
 
-This was basically the last part of my PhD thesis. A motivation was to get some high-level explanation on similarity decisions and compose the overall similarity in a faithful way from aspectual sub-similarities.  
-Us humans want to have higher-level explanations: *“These documents are similar because they’re about the same topics”*. *“These documents are dissimilar because they’re contradicting each other”*. And so on.
+This was basically the last part of my PhD thesis. A motivation was to get some high-level explanation on similarity decisions and compose the overall similarity from aspectual sub-similarities.  
+Here we would like to act directly in the decision space, as us humans often seek higher-level explanations to explain a decision: So we'd want to have something like *“These documents are similar because they’re about the same topics”*. *“These documents are dissimilar because they’re contradicting each other”*. And so on. This should happen in a *faithful* way, that is, the overall similarity of two texts should be derived from the aspectual similarities.
 
 Let's sketch the basic idea in this figure:
 
