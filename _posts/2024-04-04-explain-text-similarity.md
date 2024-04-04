@@ -9,8 +9,8 @@ published: true
 
 TLDR: 
 
-- We're gonna check out two methods for explaining text embeddings
-- One aims at explaining decisions, the other highlights tokens
+- We're gonna check out *two methods* for **explaining text embeddings** and **similarities or differences between texts**
+- One aims at *explaining decisions*, the other *highlights tokens*
 
 Keyphrases: Text embeddings, explainability, explainable similarity, representation learning
 
