@@ -1,5 +1,5 @@
 ---
-title: What’s in a %&!$# vector? 
+title: What’s in a $&!#\* vector? 
 subtitle: Explaining text embeddings and text similarity
 layout: default
 published: true
