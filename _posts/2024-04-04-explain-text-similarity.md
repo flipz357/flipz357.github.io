@@ -10,7 +10,7 @@ published: true
 TLDR: 
 
 - We're gonna check out *two methods* for **explaining text embeddings** and **similarities or differences between texts**
-- One aims at **explaining decisions** with custom metric distillation, the other *highlights tokens* with integrated gradients
+- One method **explains decisions** by binding sub-embeddings to interpretable concepts, the other method **highlights tokens** with integrated gradients
 
 *Keyphrases*: Text embeddings, explainability, explainable similarity, representation learning
 
