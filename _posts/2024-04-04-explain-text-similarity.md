@@ -44,7 +44,7 @@ Let's sketch the basic idea in this figure:
 
 ![Vector partitioning](/assets/img/blog/partition-crop.png)
 
-What you'd need to do is design some simple and interpreable metrics that measure text similarity in different aspects. Then we can bind these metrics to sub-embeddings and start learning to divide the text space into sub-spaces that capture different attributes that we’re interested in! In the end, we can trace the full similarity computation back to our high-level features. 
+What you'd need to do is design some simple and interpreable metrics that measure text similarity in different aspects. Then we can bind these metrics to sub-vectors and start learning to divide the text space into sub-spaces that capture different attributes that we’re interested in! In the end, we can trace the full similarity computation back to our high-level features. 
 
 In the example, the overall similarity is 0.8, explained as follows: the sentences have the same topic (1.0), but opposing polarity (0.0). These sub-vectors (aka sub-embeddings, or features) compose the full text representation, so we can exactly trace how they’re weighted in the final score!
 
@@ -60,7 +60,7 @@ The sparkling stars stand for some magic (that is math) that’s happening in th
 
 What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral input, we view how the gradients change when gradually going to our real input, integrating the curve with respect to each input feature. Since by integrating a gradient we kind of end up at our actual model function. 
 
-Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. All this can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
+Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. This can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
 
 ## Other approaches:
 
