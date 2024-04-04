@@ -48,7 +48,7 @@ What you'd need to do is design some simple and interpreable metrics that measur
 
 In the example, the overall similarity is 0.8, explained as follows: the sentences have the same topic (1.0), but opposing polarity (0.0). These sub-vectors (aka sub-embeddings, or features) compose the full text representation, so we can exactly trace how they’re weighted in the final score!
 
-A strength of this approach may be also a downside: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration as to what works and what not.
+A strength of this approach may also be a drawback: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration to figure out what works and what not.
 
 ## Input space explanation with integration
 
