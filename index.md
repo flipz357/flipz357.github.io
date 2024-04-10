@@ -31,6 +31,10 @@ At Heidelberg University
 - Seminar on computational argumentation
 - Seminar on semantic parsing and generation (two term projects of excellent students resulted in publications [[1](https://arxiv.org/abs/2106.04565)] [[2](https://arxiv.org/abs/2203.13226)])
 
+At TU Darmstadt
+
+- Co-supervised a graduate student project on summary evaluation, resulting in [this publication](https://arxiv.org/abs/2404.01701).
+
 ### Invited talks
 
 - *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France
