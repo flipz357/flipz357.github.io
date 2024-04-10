@@ -29,7 +29,7 @@ At Heidelberg University
 - Lecture on advanced programming with python
 - Seminar on different self-attention mechanisms in transformer models
 - Seminar on computational argumentation
-- Seminar on semantic parsing and generation (two term projects of excellent students resulted in publications [[1](https://arxiv.org/abs/2106.04565)] [[2](https://arxiv.org/abs/2203.13226)])
+- Seminar on semantic parsing and generation (two term projects of excellent students resulted in publications: [one](https://arxiv.org/abs/2106.04565) and [two](https://arxiv.org/abs/2203.13226))
 
 At TU Darmstadt
 
