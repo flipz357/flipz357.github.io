@@ -10,7 +10,7 @@ I like to study representations and their ability to meaningfully capture data (
 
 How can we capture *who does what to whom* in a text? A meaning representation tries to express the answer to this questions in a structured and explicit format, such as a graph. One of my interests is investigating ways to build novel methods from meaning representations and neural networks, leveraging the power of the latter and the explicitness and descriptiveness of the former. Indeed, while neural networks provide us with useful embeddings and generations, they tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, meaning representations describe the meaning with a crisp representation that is explicit and decomposable.
 
-Aiming at the best of such worlds, in [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. Indeed, we show that we can keep all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
+Aiming at the best of such worlds, in [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It's supposed to keep all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
 #### Other
 
