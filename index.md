@@ -37,7 +37,7 @@ At TU Darmstadt
 
 ### Invited talks
 
-- *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France
+- *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France.
 - *NLP for scholars -- and the role of linguistics* @NLP retreat of *Data and Web Science Group*, 2024, Annweiler-Trifels, Germany.
 
 
