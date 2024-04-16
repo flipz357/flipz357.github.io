@@ -9,8 +9,8 @@ published: true
 
 TLDR: 
 
-- 2️⃣ We're gonna check out **two methods** for **explaining text embeddings** and **similarities or differences between texts**
-- 🧑‍🏫 Method 1 explains decisions by binding sub-embeddings to interpretable concepts, method 2 highlights tokens with integrated gradients
+- 2️⃣ We're gonna check out **two methods** for **explaining text embeddings** and similarities or differences between texts
+- 🧑‍🏫 Method 1 explains decisions by **binding sub-embeddings to interpretable concepts**, method 2 **highlights tokens** with integrated gradients
 
 *Some Keyphrases*: Text embeddings, explainability, explainable similarity, representation learning
 
