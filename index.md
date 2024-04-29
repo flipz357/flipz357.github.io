@@ -2,8 +2,6 @@
 
 Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg University, where I was advised by Anette Frank.
 
-I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. Besides, I am also interested in many other aspects of NLP, e.g., measuring the quality of automatic systems (system evaluation).
-
 Recent news:
 
 - [A closer Look at Classification Evaluation and a Critical Reflection of Common Evaluation Practice.](https://arxiv.org/abs/2404.16958) will appear at TACL journal!! This is intended as an intuitive analytical overview of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), and so on, as well as a reflection of how metrics are and can be selected for evaluation. 
