@@ -14,14 +14,13 @@ Recent news:
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
-How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. One of my interests is investigating ways to build novel methods from MRs and neural networks (NNs), combining the power NNs and the explicitness of MRs. Indeed, while NNs provide us with useful embeddings and generations, they tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, MRs describe the meaning with a crisp representation that is explicit and decomposable.
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
 
-**Example work**: In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It's supposed to keep all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of the crisp meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
+*Example work*: How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. NNs provide us with useful embeddings and generations, but tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, MRs describe the meaning with a crisp representation that is explicit and decomposable. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It's keeps all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of the crisp meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
 #### System evaluation 😵‍💫
 
 Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there are confusing double-terms: [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). Finally, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
-
 
 #### Other:
 
