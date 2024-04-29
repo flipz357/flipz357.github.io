@@ -4,7 +4,7 @@ Hi there! I'm a researcher interested in machine learning, NLP (Natural Language
 
 Recent news:
 
-- [A closer Look at Classification Evaluation and a Critical Reflection of Common Evaluation Practice.](https://arxiv.org/abs/2404.16958) will appear at TACL journal!! This is intended as an intuitive analytical overview of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), and so on, as well as a reflection of how metrics are and can be selected for evaluation. 
+- **[A closer Look at Classification Evaluation and a Critical Reflection of Common Evaluation Practice.](https://arxiv.org/abs/2404.16958)** will appear at TACL journal!! This is intended as an intuitive analytical overview of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), and so on, as well as a reflection of how metrics are and can be selected for evaluation. 
   
 - Three Papers accepted at NAACL and LREC-COLING: A survey of Meaning Representation, Summary evaluation with summary content units, and a study of the AUC when used in NLP system evaluation.
 
