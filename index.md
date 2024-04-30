@@ -18,7 +18,7 @@ I like to study representations and their ability to meaningfully capture data (
 
 #### System evaluation 😵‍💫
 
-Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there are confusing "double-terms" (aka homonyms) like [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). For an intuitive analytical overview and comparison of more classification metrics, check out [this paper](https://arxiv.org/abs/2404.16958). Also, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
+Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there's even confusing "double-terms" like [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). For an intuitive analytical overview and comparison of more classification metrics, check out [this paper](https://arxiv.org/abs/2404.16958). Also, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
 
 #### Other interests ✨:
 
