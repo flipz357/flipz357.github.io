@@ -80,7 +80,7 @@ There's also interesting other papers about vectors and interpretability: Vivi N
 ## Footnotes
 
 [^1]: The "$&!#* vector" is derived from a quote ascribed to R. Mooney, see also [this presentation](https://aclanthology.org/attachments/P18-1198.Presentation.pdf).
-[^2]: A [later paper](https://arxiv.org/abs/2402.02883) by the same authors seems to mitigate some of these efficiency issues.
+[^2]: A [later paper](https://arxiv.org/abs/2402.02883) by the same authors seems to mitigate some of the efficiency issues.
 
 
 
