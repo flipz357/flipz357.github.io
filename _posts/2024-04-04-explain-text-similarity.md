@@ -50,17 +50,17 @@ For customization you'd have to implement some simple and interpreable metrics t
 
 A strength of this approach may also be a drawback: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration to figure out what works and what not.
 
-## Input space explanation with integration
+## Token space explanation with integration
 
-This is a cool work by Lukas Moeller et al. Here we’d like to know the *input* features that have the most impact on a decision. It’s sort of one of the most popular interpretability goals, where people want to highlight the input features that a model thinks are important. This is about how it’s done in this case:
+This is a cool work by Lukas Moeller et al. Here we’d like to know the *tokens* that have the most impact on a decision. It’s sort of one of the most popular interpretability goals, where people want to highlight the input features that a model thinks are important. This is about how it’s done in this case:
 
 ![Token attribution](/assets/img/blog/attribution-crop.png)
 
 The sparkling stars stand for some magic (that is math) that’s happening in the process. It gives us a so-called attribution matrix. The matrix approximates the full similarity function of two texts, in a token-decomposed way! That means, we can check out how every pair of words contributes to the overall similarity. 
 
-What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral input, we kind of view how the gradients change when gradually going to our real input, integrating the path with respect to each input token. Since by integrating a gradient we sort of end up at our actual model function, we have all rights to call this approach *faithful*. 
+What’s in the magic? The matrix is found with the method of “integrated gradients”: Starting from a neutral representation of the token, we view how the gradients change when gradually going to our real token representation, integrating the path with respect to each dimension. Since by integrating a gradient we sort of end up at our actual model function, we have all rights to call this approach *faithful*. 
 
-Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure. This can lower the results on benchmarks by a tiny bit, and can reduce the practical usage in case we want to run the method for a lot of pairs.[^2] 
+Like in every method, there's may be also some downsides to this approach: we’d need i) to run some iterative approximations which makes the method not efficient and ii) we’d have to stick using dot-product as a similarity measure, and iii) we'd have to consider that the attribution approximation performs reasonably mostly in deeper layers (where tokens have already been mixed with neighbors, so the interpretation of the attribution may be a bit less clear). These points can reduce the practical usage in some cases, e.g., when we want to run the method for a lot of pairs.[^2] 
 
 ## Other approaches:
 
