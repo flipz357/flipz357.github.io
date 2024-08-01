@@ -20,9 +20,11 @@ NLP for history / humanities: By now there's huge digitized historic data sets. 
 
 ### Selected works 📜
 
-- *A Closer Look at Classification Evaluation Metrics and a Critical Reflection of Common Evaluation Practice*. Available at: [MIT press](https://doi.org/10.1162/tacl_a_00675), [arxiv](https://arxiv.org/abs/2404.16958)
-- *SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features*. Available at: [ACL anthology](https://aclanthology.org/2022.aacl-main.48/), [arxiv](https://arxiv.org/abs/2206.07023)
-- *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. Available at: [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
+**A Closer Look at Classification Evaluation Metrics and a Critical Reflection of Common Evaluation Practice**. Available at: [MIT press](https://doi.org/10.1162/tacl_a_00675), [arxiv](https://arxiv.org/abs/2404.16958)
+
+**SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features**. Available at: [ACL anthology](https://aclanthology.org/2022.aacl-main.48/), [arxiv](https://arxiv.org/abs/2206.07023)
+
+**SMATCH++: Standardized and Extended Evaluation of Semantic Graphs**. Available at: [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 
 For other publications, see [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
