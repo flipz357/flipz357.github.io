@@ -6,7 +6,7 @@ Hi there! I'm a researcher interested in machine learning, NLP (Natural Language
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
-I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.), find ways to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
 
 *Example*: How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It keeps the efficiency and power of the neural sentence embeddings while getting some of that cool explainability from meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
@@ -16,7 +16,7 @@ Even one of the simplest of all evaluation tasks (classification evaluation) is 
 
 #### Other interests ✨:
 
-NLP for history / humanities: By now there's huge digitized historic data sets. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got a nice idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) has code and data.
+NLP for history / humanities: Nowadays we got huge digitized historic data sets at our fingertips. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got a nice idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) has code and data.
 
 ### Selected works 📜
 
