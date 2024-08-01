@@ -8,7 +8,7 @@ Hi there! I'm a researcher interested in machine learning, NLP (Natural Language
 
 I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.), find ways to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
 
-*Example*: How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It keeps the efficiency and power of the neural sentence embeddings while getting some of that cool explainability from meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
+*Example*: *Who does what to whom*? A meaning representation (MR) tries to express this in a structured and explicit format, such as a graph. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with MRs to decompose them into different interpretable aspects. It keeps the efficiency and power of the neural sentence embeddings while getting some of that cool explainability from meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
 #### System evaluation 😵‍💫
 
