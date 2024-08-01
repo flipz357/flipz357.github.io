@@ -2,31 +2,29 @@
 
 Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg University, where I was advised by Anette Frank.
 
-Recent news:
-
-- **[A closer Look at Classification Evaluation and a Critical Reflection of Common Evaluation Practice.](https://arxiv.org/abs/2404.16958)** will appear at **TACL journal**. This is intended as an intuitive analytical overview of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), and so on, as well as a reflection of how metrics are and can be selected for evaluation. 
-  
-- Three Papers accepted at NAACL and LREC-COLING: A survey of Meaning Representation, Summary evaluation with summary content units, and a study of the AUC when used in NLP system evaluation.
-
 ### Overview of some work and interests 🔍
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
 I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.). Representations of interest can range from explicit formal semantic structures to artificial neuron weights and activations (e.g., from large language models), to human mental representations. A goal is to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
 
-*Example work*: How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. NNs provide us with useful embeddings and generations, but tend to blend and intermingle everything in ways that we have great difficulties to understand. On the other hand, MRs describe the meaning with a crisp representation that is explicit and decomposable. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It's keeps all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of the crisp meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
+*Example work*: How can we capture *who does what to whom*? A meaning representation (MR) tries to express the answer to this questions in a structured and explicit format, such as a graph. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with meaning representations to decompose them into different interpretable aspects. It's keeps all efficiency and power of the neural sentence embeddings while getting some of that cool explainability of the crisp meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
 #### System evaluation 😵‍💫
 
-Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there's even confusing "double-terms" like [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). For an intuitive analytical overview and comparison of more classification metrics, check out [this paper](https://arxiv.org/abs/2404.16958). Also, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
+Even in the simplest of all evaluation tasks (classification evaluation) it's not so easy and there's even confusing "double-terms" like [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). For an intuitive analytical overview and comparison of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), check out this paper at [MIT press](https://doi.org/10.1162/tacl_a_00675) or [arxiv](https://arxiv.org/abs/2404.16958). Also, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
 
 #### Other interests ✨:
 
-NLP for history / humanities: By now there's huge digitized historic data sets. How can computers help us make sense of tremendous amounts of such data? I have written some code for computing large-scale statistics in collections of historic texts, exploring the European medieval ages across time and spatial axes, extracting historic events. For instance, we have automatically reconstructed coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got a nice idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) all code and data.
+NLP for history / humanities: By now there's huge digitized historic data sets. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got a nice idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) has code and data.
 
-### Publications 📜
+### Selected works 📜
 
-See [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de)
+- *A Closer Look at Classification Evaluation Metrics and a Critical Reflection of Common Evaluation Practice*. Available at: [MIT press](https://doi.org/10.1162/tacl_a_00675), [arxiv](https://arxiv.org/abs/2404.16958)
+- *SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features*. Available at: [ACL anthology](https://aclanthology.org/2022.aacl-main.48/), [arxiv](https://arxiv.org/abs/2206.07023)
+- *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. Available at: [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
+
+For other publications, see [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
 ### Teaching
 
