@@ -11,7 +11,7 @@ LLMs are mysterious creatures, and science is all over them. Noam Chomsky goes a
 He argues that they cannot distinguish the possible from the impossible, and that they can learn natural and impossible languages with [‘equal facility’](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html). 
 Interestingly, an [ACL 2024 best paper](https://arxiv.org/abs/2401.06416) just appeared that claims to refute this claim. 
 
-How cool is it to refute the opinion of a famous (and infamous) linguist, with *empirical evidence*? 
+How cool is it to refute the opinion of perhaps the world's most famed linguist, with *empirical evidence*? 
 Intrigued by this “battle of the giants” (ACL best paper vs linguistic eminence), 
 I looked more closely at the paper. In the end, however, I found myself siding with Chomsky.
 
