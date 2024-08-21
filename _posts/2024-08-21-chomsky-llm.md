@@ -2,7 +2,7 @@
 title: Chomsky is wrong, or is he?  
 subtitle: My two cents on a best paper
 layout: default
-published: false
+published: true
 ---
 
 # {{ page.title }}
