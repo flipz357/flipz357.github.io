@@ -15,7 +15,9 @@ How cool is it to refute a world famous linguist, with *empirical evidence*?
 Intrigued by this “battle of the giants” (ACL best paper vs linguistic eminence), 
 I looked more closely at the paper. In the end, however, I found myself siding with Chomsky.
 
-But first, let’s examine the paper’s key evidence, which seems to be this:
+### Examining the main evidence
+
+First, let’s examine the paper’s key evidence, which seems to be this:
 
 > We find that models trained on possible languages learn more efficiently, evident from lower perplexities achieved in fewer training steps.
 
@@ -29,7 +31,7 @@ So there is the appearance that learning such impossible languages is "natively"
 
 So can we call it a day, Chomsky is disproven, right? Well, it appears that there is a bug with this way of reasoning.
 
-## Different data, different perplexity levels are expected
+### Different data, different perplexity levels are expected
 
 Let's first note that their training and testing data varies across setups (e.g., standard/shuffled word order). 
 Therefore, having achieved lower perplexity doesn’t necessarily equate to having learnt more efficiently, even if it would also be achieved in fewer steps. 
@@ -44,7 +46,7 @@ In fact, it could even be that the opposite is true: The model could learn impos
 
 So to draw safer conclusions about whether possible langauges are harder to learn for an LLM than impossible ones, we'd need to establish which perplexities could be reached across the different data setups. 
 
-## Conclusion: Chomsky's argument is not refuted
+### Conclusion: Chomsky's argument is not refuted
 
 In sum, I'd say that what Chomsky's view on this matter has not been disproven. 
 Maybe, if you view LLMs as universal computers, this view even seems more natural:
