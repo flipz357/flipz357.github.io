@@ -45,7 +45,7 @@ Thus, the uncertainty of the model on shuffled words can only be higher.
 
 So the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. Without knowing the expected levels it's hard to get to the bottom of the matter.
 
-### Conclusion: Chomsky's argument may not be refuted
+### Conclusion: Chomsky's argument is yet to be refuted
 
 In sum, I'd say that Chomsky's view on this matter has not been disproven. 
 Maybe, if we view LLMs as universal computers, it even seems natural to think that
