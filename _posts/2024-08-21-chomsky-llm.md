@@ -32,7 +32,7 @@ So there is the appearance that learning impossible languages is "natively" hard
 
 So can we call it a day, Chomsky is disproven, right? Well, it appears that there is a bug with this way of reasoning.
 
-### Different data, different perplexity levels are expected
+### Different data, different perplexity levels to be expected
 
 Let's first note that the paper's training and testing data varies across setups (e.g., standard/shuffled word order). 
 Therefore, having achieved lower perplexity doesn’t necessarily equate to having learnt more efficiently, even if it would also be achieved in fewer steps. 
