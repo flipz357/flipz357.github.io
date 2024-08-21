@@ -36,7 +36,7 @@ So can we call it a day, Chomsky is disproven, right? Well, it appears that ther
 
 Let's first note that the paper's training and testing data varies across setups (e.g., standard/shuffled word order). 
 Therefore, having achieved lower perplexity doesn’t necessarily equate to having learnt more efficiently, even if it would also be achieved in fewer steps. 
-Conversely, the ability to learn efficiently doesn’t guarantee equally lower perplexity on any kind of data. 
+Similarly, the ability to efficiently learn any kind of patters doesn’t guarantee equally lower perplexity on any kind of data. 
 
 As a more concrete example, take one of the paper’s impossible languages: Shuffled word order. For text with random word order we would expect that the best possible perplexity is naturally worse than for standard text.
 Consider that the next word in a random word sequence is harder to predict than the next word in a non-shuffled English sentence. 
