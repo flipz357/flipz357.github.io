@@ -1,12 +1,11 @@
 ---
-title: Chomsky is wrong, or is he?  
+title: Chomsky is wrong about LLMs, or is he?  
 subtitle: My two cents on a best paper
 layout: default
 published: true
 ---
 
 # {{ page.title }}
-## {{ page.subtitle }}
 
 LLMs are mysterious creatures, and science is all over them. Noam Chomsky goes against the tide and finds them rather unimpressive. 
 He argues that they cannot distinguish the possible from the impossible, and that they can learn natural and impossible languages with [‘equal facility’](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html). 
