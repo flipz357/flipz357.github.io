@@ -34,7 +34,7 @@ So can we call it a day, Chomsky is disproven, right? Well, it appears that ther
 
 ### Different data, different perplexity levels are expected
 
-Let's first note that their training and testing data varies across setups (e.g., standard/shuffled word order). 
+Let's first note that the paper's training and testing data varies across setups (e.g., standard/shuffled word order). 
 Therefore, having achieved lower perplexity doesn’t necessarily equate to having learnt more efficiently, even if it would also be achieved in fewer steps. 
 Conversely, the ability to learn efficiently doesn’t guarantee equally lower perplexity on any kind of data. 
 
@@ -45,11 +45,9 @@ English also contains well known regularities like SVO (Subject-Verb-Object), wh
 In other words, the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. 
 In fact, it could even be that the opposite is true: The model could learn impossible languages better. However, there is also no evidence for this.
 
-So to draw safer conclusions about whether possible langauges are harder to learn for an LLM than impossible ones, we'd need to establish which perplexities could be reached across the different data setups. 
-
 ### Conclusion: Chomsky's argument is not refuted
 
-In sum, I'd say that what Chomsky's view on this matter has not been disproven. 
-Maybe, if you view LLMs as universal computers, this view even seems more natural:
+In sum, I'd say that Chomsky's view on this matter has not been disproven. 
+Maybe, if we view LLMs as universal computers, it even seems natural to think that
 LLMs can learn all kinds of patterns with about the same facility, be they "possible" or "impossible". 
 Whether you want to take it one step further and also agree with him that *therefore* LLMs can’t tell us much about human language – that's up to you.
