@@ -42,8 +42,7 @@ As a more concrete example, take one of the paper’s impossible languages: Shuf
 Consider that the next word in a random word sequence is harder to predict than the next word in a non-shuffled English sentence. 
 English also contains well known regularities like SVO (Subject-Verb-Object), which are broken when shuffling. Thus, the uncertainty of the model can only be higher. 
 
-In other words, the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. 
-In fact, it could even be that the opposite is true: The model could learn impossible languages better. However, there is also no evidence for this.
+So the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. Without knowing the expected levels it's hard to get any bigger picture.
 
 ### Conclusion: Chomsky's argument is not refuted
 
