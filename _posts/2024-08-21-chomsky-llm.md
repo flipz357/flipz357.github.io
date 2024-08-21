@@ -50,4 +50,4 @@ In fact, it could even be that the opposite is true: The model could learn impos
 In sum, I'd say that Chomsky's view on this matter has not been disproven. 
 Maybe, if we view LLMs as universal computers, it even seems natural to think that
 LLMs can learn all kinds of patterns with about the same facility, be they "possible" or "impossible". 
-Whether you want to take it one step further and also agree with him that *therefore* LLMs can’t tell us much about human language – that's up to you.
+Whether you want to take it one step further and also agree with him that *therefore* LLMs can’t tell us much about human language – that's very much up to you.
