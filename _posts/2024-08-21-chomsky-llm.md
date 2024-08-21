@@ -38,9 +38,10 @@ Let's first note that the paper's training and testing data varies across setups
 Therefore, having achieved lower perplexity doesn’t necessarily equate to having learnt more efficiently, even if it would also be achieved in fewer steps. 
 Similarly, the ability to efficiently learn any kind of patters doesn’t guarantee equally lower perplexity on any kind of data. 
 
-As a more concrete example, take one of the paper’s impossible languages: Shuffled word order. For text with random word order we would expect that the best possible perplexity is naturally worse than for standard text.
-Consider that the next word in a random word sequence is harder to predict than the next word in a non-shuffled English sentence. 
-English also contains well known regularities like SVO (Subject-Verb-Object), which are broken when shuffling. Thus, the uncertainty of the model can only be higher. 
+As a more concrete example, take one of the paper’s impossible languages: Shuffled word order. For text with random word order we would expect that the best possible perplexity is naturally worse:
+A next word in a random word sequence is harder to predict than a next word in a non-shuffled English sentence. 
+English also contains well known regularities like SVO (Subject-Verb-Object), which are broken when shuffling. 
+Thus, the uncertainty of the model on shuffled words can only be higher. 
 
 So the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. Without knowing the expected levels it's hard to get any bigger picture.
 
