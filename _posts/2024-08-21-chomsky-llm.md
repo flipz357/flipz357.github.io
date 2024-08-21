@@ -42,7 +42,7 @@ Consider that the next word in a random word sequence is harder to predict than 
 English also contains well known regularities like SVO (Subject-Verb-Object), which are broken when shuffling. Thus, the uncertainty of the model can only be higher. 
 
 In other words, the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. 
-In fact, it could even be that the opposite is true: The model could learn impossible languages better. However, the evidence for this seems to be as scant as for the original claim. So let's stop with this speculation.
+In fact, it could even be that the opposite is true: The model could learn impossible languages better. However, there is also no evidence for this.
 
 So to draw safer conclusions about whether possible langauges are harder to learn for an LLM than impossible ones, we'd need to establish which perplexities could be reached across the different data setups. 
 
