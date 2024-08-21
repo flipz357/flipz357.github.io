@@ -43,7 +43,7 @@ A next word in a random word sequence is harder to predict than a next word in a
 English also contains well known regularities like SVO (Subject-Verb-Object), which are broken when shuffling. 
 Thus, the uncertainty of the model on shuffled words can only be higher. 
 
-So the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. Without knowing the expected levels it's hard to get any bigger picture.
+So the best perplexity level that a model can be expected to achieve is different across setups, even if the vocabulary of tokens is the same. Without knowing the expected levels it's hard to get to the bottom of the matter.
 
 ### Conclusion: Chomsky's argument is not refuted
 
