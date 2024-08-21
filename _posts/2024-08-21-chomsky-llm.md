@@ -30,7 +30,7 @@ And also let's assume, for the sake of the paper's argument, that learning effic
 In the nice graphs that are shown in the paper, we clearly see faster convergence and better perplexity on the possible languages. 
 So there is the appearance that learning impossible languages is "natively" harder for LLMs. 
 
-So can we call it a day, Chomsky is disproven, right? Well, it appears that there is a bug with this way of reasoning.
+So can we call it a day, Chomsky is disproven, right? Well, it appears that there may be a bug with this way of reasoning.
 
 ### Different data, different perplexity levels to be expected
 
