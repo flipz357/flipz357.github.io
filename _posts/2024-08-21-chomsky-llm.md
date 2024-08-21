@@ -22,7 +22,7 @@ First, let’s examine the paper’s main evidence, which seems to be this:
 
 > We find that models trained on possible languages learn more efficiently, evident from lower perplexities achieved in fewer training steps.
 
-If you’re not sure what is meant by impossible/impossible languages, simply take English as a possible language, and English with random word order as an impossible one. 
+If you’re not sure what is meant by possible/impossible languages, simply take English as a possible language, and English with random word order as an impossible one. 
 Informally, perplexity measures the ability to predict the next symbol in a sequence. It expresses uncertainty, so the lower the better.
 
 And also let's assume, for the sake of the paper's argument, that learning efficiency is equivalent to Chomsky’s notion of "facility to learn." 
