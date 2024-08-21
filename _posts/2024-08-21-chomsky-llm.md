@@ -18,7 +18,7 @@ I looked more closely at the paper. In the end, however, I found myself siding w
 
 ### Examining the main evidence
 
-First, let’s examine the paper’s key evidence, which seems to be this:
+First, let’s examine the paper’s main evidence, which seems to be this:
 
 > We find that models trained on possible languages learn more efficiently, evident from lower perplexities achieved in fewer training steps.
 
