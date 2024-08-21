@@ -17,7 +17,7 @@ I looked more closely at the paper. In the end, however, I found myself siding w
 
 But first, let’s examine the paper’s key evidence, which seems to be this:
 
-> We find that models trained on possible languages learn more efficiently, evident from lower perplexities achieved in fewer training steps.*
+> We find that models trained on possible languages learn more efficiently, evident from lower perplexities achieved in fewer training steps.
 
 If you’re not sure what is meant by impossible/impossible languages, simply take English as a possible language, and English with random word order as an impossible one. 
 Informally, perplexity measures the ability to predict the next word in a sequence. It expresses uncertainty, so the lower the better.
