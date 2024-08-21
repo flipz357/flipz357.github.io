@@ -1,6 +1,6 @@
 ---
-title: Chomsky is Wrong, or Is He?  
-subtitle: My Two Cents on a Best Paper
+title: Chomsky is wrong, or is he?  
+subtitle: My two cents on a best paper
 layout: default
 published: false
 ---
