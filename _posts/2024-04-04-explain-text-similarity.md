@@ -11,7 +11,8 @@ published: true
 TLDR: 
 
 - We're gonna check out **two methods** for explaining text embeddings and similarities or differences between texts
-- Method 1 explains decisions by **binding sub-embeddings to interpretable concepts**, method 2 **highlights tokens** with integrated gradients
+- Method 1 explains decisions by **binding sub-embeddings to interpretable concepts**,
+- Method 2 **highlights tokens** with integrated gradients
 
 *Some Keyphrases*: Text embeddings, explainability, explainable similarity, representation learning
 
@@ -23,7 +24,7 @@ Capturing the meaning of a text as a vector (aka representation, or embedding, i
 
 #### Why explain a $&!#\* vector?
 
-Obviously, in the age of BERT and LLMs, we do have methods that can well map text to a vector. While that's pretty cool and also useful, at one point, we may have to **explain why our model considers two texts are similar**, or not. As an hypothetical edge case, think of a court where we’d have to argue why our model returned a “wrong” text that somehow led to some sort of legal mess further downstream.
+In the age of BERT and LLMs, we have methods that can accurately map text to a vector -- that's pretty cool and also useful! But at one point, we may have to **explain why our model considers two texts are similar**. As an hypothetical edge case, think of a court where we’d have to argue why our model returned a “wrong” text that somehow led to some sort of legal mess further downstream.
 
 So let’s dive into two cool methods for interpretation of embeddings. 
 
