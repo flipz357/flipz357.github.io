@@ -50,7 +50,7 @@ In the example, the overall similarity is 0.8, explained as follows: the sentenc
 
 For customization you'd have to implement some simple and interpreable metrics that measure text similarity in different aspects. Then we can bind these metrics to sub-vectors and start learning to divide the text space into sub-spaces that capture different attributes that we’re interested in! In the end, we can trace the full similarity computation back to our high-level features. 
 
-A strength of this approach may also be a drawback: There's lots of freedom in how you design your interpretable metrics, which can require some time for exploration to figure out what works and what not.
+A strength of this approach may also be a drawback: There's some freedom in how you design your interpretable metrics, which can require some time for exploration to figure out what works and what not.
 
 ## Token space explanation with integration
 
