@@ -42,10 +42,10 @@ Structure of this post:
 
 My basic *simple take-aways* from such evaluation quirks are:
 
-Try to become aware of what an evaluation metric actually measures.
-Become aware of the evaluation problem.
-This knowledge helps you select a metric.
-Make sure it’s correctly implemented.
+- Try to become aware of what an evaluation metric actually measures.
+- Become aware of the evaluation problem.
+- This knowledge helps you select a metric.
+- Make sure it’s correctly implemented.
 
 For deeper reading, and to help practitioners and researchers with this, I’ve written a paper that explores how to select the right metrics and make more sense of their behavior:
 
@@ -57,7 +57,6 @@ Links:
 
 
 To give a quick idea of the work: The paper analyzes how metrics behave depending on factors like how often a class appears (prevalence) and the model’s tendency to predict certain classes (classifier bias). Metrics analyzed: Accuracy, macro Recall and Precision, F1, weighted F1, macro F1, Kappa, MCC. A finding, for instance, is that in a strict sense, only macro Recall is “balanced”.
-
 
 ## Detailed references
 
