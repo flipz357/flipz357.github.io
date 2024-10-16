@@ -1,6 +1,8 @@
 ## Juri Opitz
 
-Hi there! I'm a researcher interested in machine learning, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg University, where I was advised by Anette Frank.
+Hi there! I'm a researcher interested in machine learning, statistics, NLP (Natural Language Processing), and computational linguistics.  
+
+My Ph.D. was obtained from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). I am now based in Switzerland, working for the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html), affiliated with the [Impresso project](https://impresso-project.ch/).
 
 ### Overview of some work and interests 🔍
 
