@@ -4,33 +4,35 @@ layout: default
 published: true
 ---
 
+# {{ page.title }}
+
 I’ve been observing system evaluation practice for close to 10 years. Thought to share a few funny and intriguing things that I noted. For references and general evaluation tips see the end of this post. 
 
-# Six Intriguing Evaluation Quirks
+## Six Intriguing Evaluation Quirks
 
-## Doppelganger metrics:
+### Doppelganger metrics:
 
 1) *Doppelganger metrics by name*: Folks have been using two metrics called “macro F1” for multi-class evaluation. They can differ up to 50 points!
 
 2) *Doppelganger metrics by implementation*: For multi-class evaluation, “micro F1” is the same as “Accuracy”.
 
-## Implementation bugs**:
+### Implementation bugs**:
 
 3) *Optimistic result because of double-counting*: By improperly evaluating retrieved instances in an IR setting, the F1 score can rise up to 200% points, kind of exploding the scale which is supposed to end at 100%. 
 
 4) *Optimistic result because of tie-breaking*: Sometimes, evaluation scores can be optimistic. This can happen, e.g., when ties in an ensemble classifier are resolved using the gold label.
 
-## Quirky metric properties:
+### Quirky metric properties:
 
 5) *Wrong prediction, better score.* For MCC and Kappa, there can be a situation where a wrong prediction would increase the score.
 
-## Ambiguous Metric Goals**:
+### Ambiguous Metric Goals**:
 
 6) *“Balance”*: Researchers are often wishing for a “balance” when they’re evaluating a system. This “balance” is then said to be achieved by using metrics such as MCC or macro F1. But it’s actually not clear what this balance is, and how these metrics achieve this. If we define “balance” in the sense of a metric being invariant to class prevalence, then only macro Recall is actually “balanced”.
 
 —
 
-# Evaluation Tips
+## Evaluation Tips
 
 My basic *simple take-aways* from such evaluation quirks are:
 
@@ -51,7 +53,7 @@ Links:
 To give a quick idea of the work: The paper analyzes how metrics behave depending on factors like how often a class appears (prevalence) and the model’s tendency to predict certain classes (classifier bias). Metrics analyzed: Accuracy, macro Recall and Precision, F1, weighted F1, macro F1, Kappa, MCC. A finding, for instance, is that in a strict sense, only macro Recall is “balanced”.
 
 
-# Detailed references for all six example quirks:
+## Detailed references for all six example quirks:
 
 Point 1) **“macro F1 doppelgangers”**
 
