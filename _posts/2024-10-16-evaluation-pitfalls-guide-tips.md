@@ -6,7 +6,13 @@ published: true
 
 # {{ page.title }}
 
-I’ve been observing system evaluation practice for close to 10 years. Thought to share a few funny and intriguing things that I noted. For references and general evaluation tips see the end of this post. 
+I’ve been observing system evaluation practice for close to 10 years. Thought to share a few funny and intriguing things that I noted. 
+
+Structure of this post:
+
+- [Intriguing Evaluation Quirks](#six-intriguing-evaluation-quirks)
+- [General Evaluation Recommendations](#evaluation-tips)
+- [Detailed References](#detailed-references)
 
 ## Six Intriguing Evaluation Quirks
 
@@ -53,7 +59,7 @@ Links:
 To give a quick idea of the work: The paper analyzes how metrics behave depending on factors like how often a class appears (prevalence) and the model’s tendency to predict certain classes (classifier bias). Metrics analyzed: Accuracy, macro Recall and Precision, F1, weighted F1, macro F1, Kappa, MCC. A finding, for instance, is that in a strict sense, only macro Recall is “balanced”.
 
 
-## Detailed references for all six example quirks:
+## Detailed references
 
 Point 1) **“macro F1 doppelgangers”**
 
@@ -86,8 +92,8 @@ There’s been a very popular ACL paper for low-resource text classification wit
 
 Point 5) **“Wrong prediction can increase score”**
 
-See Section 4.7 in the [metric overview](https://doi.org/10.1162/tacl_a_00675)
+See Section 4.7 in the [metric overview](https://doi.org/10.1162/tacl_a_00675).
 
 Point 6) **“Concept of “Balance””**
 
-For example, one notion of such a “balance” could be understood as a wish for prevalence-invariance, that is, a metric yields the same score when label prevalences are different (e.g., say 95/5 positive/negative class vs.  5/95 positive/negative class). It is accomplished by a very simple metric: macro Recall. See property V and Section 4.2 in the [metric overview](https://doi.org/10.1162/tacl_a_00675.)
+For example, one notion of such a “balance” could be understood as a wish for prevalence-invariance, that is, a metric yields the same score when label prevalences are different (e.g., say 95/5 positive/negative class vs.  5/95 positive/negative class). It is accomplished by a very simple metric: macro Recall. See property V and Section 4.2 in the [metric overview](https://doi.org/10.1162/tacl_a_00675).
