@@ -30,7 +30,7 @@ Structure of this post:
 
 ### Quirky metric properties:
 
-5) *Wrong prediction, better score.* For MCC and Kappa, there can be a situation where a wrong prediction would increase the score.
+5) *Wrong prediction, better score:* For MCC and Kappa, there can be a situation where a wrong prediction would increase the score.
 
 ### Ambiguous Metric Goals:
 
