@@ -26,7 +26,7 @@ permalink: /blog
 
 [How to hack an AMR Parsing evaluation -- and what to do about it](https://www.juriopitz.com/2023/10/04/hacking-a-metric.html)
 
-*We score 100 points on a popular NLP parsing benchmark with a simple hack!*
+*We score 100 points on a popular NLP parsing benchmark with a simple hack! We also see how we can evaluate such parser more properly and safely.* 
 
 
 
