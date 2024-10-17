@@ -1,7 +1,7 @@
 ---
 title: Evaluation Quirks, Pitfalls and Some General Recommendations 
 layout: default
-published: false
+published: true
 ---
 
 # {{ page.title }}
