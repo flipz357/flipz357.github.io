@@ -30,7 +30,7 @@ Overview of this post:
 
 ### Quirky metric properties:
 
-5) *Wrong prediction, better score:* For MCC and Kappa, there can be a situation where a wrong prediction would increase the score.
+5) *Wrong prediction, better score:* For Matthews Correlation Coefficient (MCC) and Kappa, there can be a situation where a wrong prediction would increase the score.
 
 ### Ambiguous Metric Goals:
 
@@ -54,7 +54,7 @@ Links:
 [arxiv](https://arxiv.org/abs/2404.16958)
 
 
-To give a quick idea of the work: The paper analyzes how metrics behave depending on factors like how often a class appears (prevalence) and the model’s tendency to predict certain classes (classifier bias). Metrics analyzed: Accuracy, macro Recall and Precision, F1, weighted F1, macro F1, Kappa, MCC. A finding, for instance, is that in a strict sense, only macro Recall is “balanced”.
+To give a quick idea of the work: The paper analyzes how metrics behave depending on factors like how often a class appears (prevalence) and the model’s tendency to predict certain classes (classifier bias). Metrics analyzed: Accuracy, macro Recall and Precision, F1, weighted F1, macro F1, Kappa, Matthews Correlation Coefficient (MCC). A finding, for instance, is that in a strict sense, only macro Recall is “balanced”.
 
 ## Detailed references
 
