@@ -8,7 +8,7 @@ published: true
 
 I’ve been observing system evaluation practice for close to 10 years. Thought to share a few funny and intriguing things that I noted. 
 
-Structure of this post:
+Overview of this post:
 
 - [Funny Evaluation Quirks](#six-intriguing-evaluation-quirks)
 - [General Evaluation Recommendations](#evaluation-tips)
@@ -60,7 +60,7 @@ To give a quick idea of the work: The paper analyzes how metrics behave dependin
 
 Point 1) **“macro F1 doppelgangers”**
 
-See 4.4 in [this metric overview](https://doi.org/10.1162/tacl_a_00675). For a deeper analysis of the relationships of the two F1 formulas that proves their difference see [“Macro F1 and Macro F1](https://doi.org/10.48550/arXiv.1911.03347).
+See 4.4 in [this metric overview](https://doi.org/10.1162/tacl_a_00675). For a deeper survey of the relationships of the two F1 formulas see [“Macro F1 and Macro F1](https://doi.org/10.48550/arXiv.1911.03347).
 
 Point 2) **“Micro F1 = Accuracy”**
 I think that’s already known to some folks, but probably not to all. If you need to see the simple derivation, look at, e.g., [Appendix A](https://doi.org/10.1162/tacl_a_00675).
