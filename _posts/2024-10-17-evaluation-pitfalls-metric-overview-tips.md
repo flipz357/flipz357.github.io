@@ -1,5 +1,5 @@
 ---
-title: Evaluation Quirks, Metric Pitfalls and Some General Recommendations 
+title: Evaluation Quirks, Metric Pitfalls and Some Recommendations 
 layout: default
 published: true
 ---
