@@ -40,7 +40,7 @@ To keep the overview reasonably brief, detailed references and code examples for
 
 ## Evaluation Tips
 
-My basic *simple take-aways* from such evaluation quirks are:
+My basic *take-aways* from such evaluation quirks are:
 
 - Try to become aware of what an evaluation metric actually measures.
 - Become aware of the evaluation problem.
