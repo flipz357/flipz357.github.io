@@ -6,7 +6,7 @@ permalink: /blog
 
 # Blog
 
-[Evaluation Quirks, Pitfalls and Some General Recommendations: A little Survey](evaluation-pitfalls-metric-overview-tips)
+[Evaluation Quirks, Pitfalls and Some Recommendations: A little Survey](evaluation-pitfalls-metric-overview-tips)
 
 *A collection of funny evaluation quirks and some general guidance for classification evaluation.*
 
