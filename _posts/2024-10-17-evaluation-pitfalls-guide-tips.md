@@ -10,7 +10,7 @@ I’ve been observing system evaluation practice for close to 10 years. Thought 
 
 Structure of this post:
 
-- [Intriguing Evaluation Quirks](#six-intriguing-evaluation-quirks)
+- [Funny Evaluation Quirks](#six-intriguing-evaluation-quirks)
 - [General Evaluation Recommendations](#evaluation-tips)
 - [Detailed References](#detailed-references)
 
