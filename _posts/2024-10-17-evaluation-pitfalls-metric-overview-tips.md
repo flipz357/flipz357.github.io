@@ -16,6 +16,8 @@ Overview of this post:
 
 ## Six Funny Evaluation Quirks
 
+To keep the overview reasonably brief, detailed references and code examples for each point will come at the [bottom of this post](#detailed-references).
+
 ### Doppelganger metrics:
 
 1) *Doppelganger metrics by name*: Folks have been using two metrics called “macro F1” for multi-class evaluation. They can differ up to 50 points!
