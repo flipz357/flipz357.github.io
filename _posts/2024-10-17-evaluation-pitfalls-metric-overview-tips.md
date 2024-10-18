@@ -87,7 +87,7 @@ I prepared a [github repository](https://github.com/flipz357/FunnyMetrics) so yo
 
 Point 4) **“Optimistic evaluation”**
 
-There’s been a very popular ACL paper for low-resource text classification with a super cool and simple method. GZIP distance and KNN! It provides promising results – but the results are not quite as strong as shown in the paper (it doesn’t outperform BERT), due to a quirk in the evaluation. See [my writeup here](https://arxiv.org/abs/2307.15002), and [Ken Schutte’s blogpost here](https://kenschutte.com/gzip-knn-paper2/).
+There’s been a very popular ACL paper for low-resource text classification with a super cool and simple method. GZIP distance and KNN! It provides promising results – but the results are not quite as strong as shown in the paper, due to a quirk in the evaluation. See [my writeup here](https://arxiv.org/abs/2307.15002), and [Ken Schutte’s blogpost here](https://kenschutte.com/gzip-knn-paper2/).
 
 Point 5) **“Wrong prediction can increase score”**
 
