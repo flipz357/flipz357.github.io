@@ -36,7 +36,7 @@ To keep the overview reasonably brief, detailed references and code examples for
 
 ### Ambiguous Metric Goals:
 
-6) *“Balance”*: Researchers are often wishing for a “balance” when they’re evaluating a system. This “balance” is then said to be achieved by using metrics such as MCC or macro F1. But it’s actually not clear what this balance is, and how these metrics achieve this. 
+6) *“Balance”*: Researchers are often wishing for a “balance” when they’re evaluating a system. This “balance” is then said to be achieved by using metrics such as MCC or macro F1. But it’s often not clear what is understood as a "balance", and how these metrics would accomplish it. 
 
 ## Evaluation Tips
 
