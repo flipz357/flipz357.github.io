@@ -14,7 +14,7 @@ permalink: /blog
 
 [Chomsky is wrong, or is he?](https://www.juriopitz.com/2024/08/21/chomsky-llm.html)
 
-*An ACL best-paper seems to have "disproven" Chomsky's claim that LLMs can model all languages with "equal facility". But I argue that the story is more nuanced.*
+*An ACL best-paper seems to have "disproven" Chomsky's claim that LLMs can model all languages with "equal facility". I argue that the story is more nuanced.*
 
 ---
 
