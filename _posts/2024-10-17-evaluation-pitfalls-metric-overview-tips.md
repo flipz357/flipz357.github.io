@@ -81,7 +81,7 @@ Essentially, what has happened is using a function like this for calculating rec
 
 Now if you feed a list into this function where the same element accidentally occurs multiple times (can happen in generative AI), go figure! With a recall that’s approaching infinity, the F1 score approaches 200. 
 
-I observed this in evaluation of semantic parsing, a popular NLP task that has even been targeted by NeurIPS papers. Potentially, there are other applications who also suffer from this bug.
+I observed this in evaluation of semantic parsing, a popular NLP task that has even been targeted by [NeurIPS papers](https://proceedings.neurips.cc/paper/2021/hash/479b4864e55e12e0fb411eadb115c095-Abstract.html) and is commonly found in ACL/EMNLP conferences. Potentially, there are other applications who also suffer from this bug.
 
 I prepared a [github repository](https://github.com/flipz357/FunnyMetrics) so you can simply reproduce this quirk!
 
@@ -91,7 +91,7 @@ There’s been a very popular ACL paper for low-resource text classification wit
 
 Point 5) **“Wrong prediction can increase score”**
 
-See Section 4.7 in the [metric overview](https://doi.org/10.1162/tacl_a_00675).
+See Section 4.7 in the [metric overview](https://doi.org/10.1162/tacl_a_00675) (the appendix near the end also contains an example).
 
 Point 6) **“Concept of “Balance””**
 
