@@ -8,13 +8,13 @@ My Ph.D. was obtained from Heidelberg University, where I was advised by [Anette
 
 #### Meaning representations, Explainability, and Decomposability 🧐
 
-I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.), find ways to improve their representation power or efficiency and possibly find some structural interlinks between the diverse representations. 
+I like to study representations and their ability to meaningfully capture data (e.g., text, images, etc.), find ways to improve their representation power, efficiency, and interlinks. 
 
 *Example*: *Who does what to whom*? A meaning representation (MR) tries to express this in a structured and explicit format, such as a graph. In [this paper](https://arxiv.org/abs/2206.07023) we refine neural sentence embeddings with MRs to decompose them into different interpretable aspects. It keeps the efficiency and power of the neural sentence embeddings while getting some of that cool explainability from meaning representations! Check out [this repository](https://github.com/flipz357/S3BERT) for the code.
 
 #### System evaluation 😵‍💫
 
-Even one of the simplest of all evaluation tasks (classification evaluation) is far from trivial. For an intuitive analytical overview and comparison of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), check out this paper at [MIT press](https://doi.org/10.1162/tacl_a_00675) or [arxiv](https://arxiv.org/abs/2404.16958). Funnily, there's even overloaded names such as [Macro F1 and macro F1](https://arxiv.org/abs/1911.03347) (no typo!). Also, evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardiziation](https://arxiv.org/abs/2305.06993) and [discussing other issues](https://arxiv.org/abs/2210.06461).
+Even one of the simplest of all evaluation tasks (classification evaluation) is far from trivial. For an intuitive analytical overview and comparison of classification metrics such as Macro F1, Weighted F1, Kappa, Matthews Correlation Coefficient (MCC), check out this paper at [MIT press](https://doi.org/10.1162/tacl_a_00675) or [arxiv](https://arxiv.org/abs/2404.16958). Then evaluation issues typically get compounded when looking at tasks where we don't generate class labels, but generate artificial text, or other structured predictions, such as semantic graphs. Here's some work on generation evaluation ([click](https://arxiv.org/abs/2305.16819)) and semantic parsing evaluation, introducing [standardized and fine-grained matching](https://arxiv.org/abs/2305.06993).
 
 #### Other interests ✨:
 
@@ -48,5 +48,6 @@ At TU Darmstadt
 - *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France.
 - *NLP for scholars -- and the role of linguistics* @NLP retreat of *Data and Web Science Group*, 2024, Annweiler-Trifels, Germany.
 - *NLP and linguistics* @Text+ Plenary, 2024, Mannheim, Germany.
+- *NLP and linguistics* @NLP seminar series at National Research Council, Canada.
 
 
