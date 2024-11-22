@@ -6,7 +6,7 @@ published: true
 
 # {{ page.title }}
 
-I’ve been observing system evaluation practice for close to 10 years. Thought to share a few funny and intriguing things that I noted. 
+Having observed system evaluation practice for close to 10 years, I thought to share a few funny and intriguing things that I noted. 
 
 Overview of this post:
 
