@@ -26,7 +26,7 @@ To keep the overview reasonably brief, detailed references and code examples for
 
 ### Implementation bugs:
 
-3) *Optimistic result because of double-counting*: By improperly evaluating retrieved instances in an IR setting, the F1 score can rise up to 200% points, kind of exploding the scale which is supposed to end at 100%. 
+3) *Optimistic result because of double-counting*: By improperly evaluating retrieved instances in an IR setting, the F1 score can rise up to 200%, bursting the scale which is supposed to end at 100. 
 
 4) *Optimistic result because of tie-breaking*: Sometimes, evaluation scores can be optimistic. This can happen, e.g., when ties in an ensemble classifier are resolved using the gold label.
 
