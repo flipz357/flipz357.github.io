@@ -32,7 +32,7 @@ For other publications, see [Google Scholar](https://scholar.google.de/citations
 
 ### Teaching and Supervising
 
-I have taught courses on diverse topics, and supervised Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university/) for more information. 
+I have taught courses on diverse topics, and supervised Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
 
 ### Invited talks
 
