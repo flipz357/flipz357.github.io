@@ -1,8 +1,8 @@
 ## Juri Opitz
 
-Hi there! I'm a researcher interested in machine learning, statistics, NLP (Natural Language Processing), and computational linguistics.  
+Hi there! I'm a researcher interested in machine learning, statistics, NLP (Natural Language Processing), and computational linguistics. I obtained my Ph.D. from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, working at the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html).
 
-My Ph.D. was obtained from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). I am now based in Switzerland, working at the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html).
+Also check out my [blog](https://www.juriopitz.com/blog), where I share some tidbits that I think are interesting, and other thoughts that crossed my mind.
 
 ### Overview of some work and interests 🔍
 
@@ -18,7 +18,7 @@ Even one of the simplest of all evaluation tasks (classification evaluation) is 
 
 #### Other interests ✨:
 
-NLP for history / humanities: Nowadays we got huge digitized historic data sets at our fingertips. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got a nice idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) has code and data.
+NLP for history / humanities: Nowadays we got huge digitized historic data sets at our fingertips. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got an idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) has code and data.
 
 ### Selected works 📜
 
@@ -30,24 +30,16 @@ NLP for history / humanities: Nowadays we got huge digitized historic data sets 
 
 For other publications, see [Google Scholar](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
-### Teaching
+### Teaching and Supervising
 
-At Heidelberg University
-
-- Lecture on advanced programming with python
-- Seminar on self-attention variants in transformer models
-- Seminar on computational argumentation
-- Seminar on semantic parsing and generation (two term projects of excellent students resulted in publications: [one](https://arxiv.org/abs/2106.04565) and [two](https://arxiv.org/abs/2203.13226))
-
-At TU Darmstadt
-
-- Co-supervised a graduate student project on summary evaluation, resulting in [this publication](https://arxiv.org/abs/2404.01701).
+I have taught courses on diverse topics, and supervised Bachelor and Master theses. Please 
 
 ### Invited talks
 
-- *Metrics of meaning representations and their interesting applications* @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France.
-- *NLP for scholars -- and the role of linguistics* @NLP retreat of *Data and Web Science Group*, 2024, Annweiler-Trifels, Germany.
-- *NLP and linguistics* @Text+ Plenary, 2024, Mannheim, Germany.
-- *NLP and linguistics* @NLP seminar series at National Research Council, Canada.
+I have given invited talks on these topics:
+
+- *Metrics of meaning representations and their interesting applications* (Two talks) 1) @DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France. 2) AM4AS Workshop at TALN 2025, Marseille.
+- *NLP and linguistics* (Three talks) 1) @Text+ Plenary, 2024, Mannheim, Germany. 2) @NLP seminar series at National Research Council, Canada. 3) European Research Network Universality, Diversity, and Originality in Language Technology.
+
 
 
