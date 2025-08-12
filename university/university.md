@@ -1,3 +1,9 @@
+---
+title: University
+layout: default
+permalink: /university
+---
+
 # Teaching
 
 At Heidelberg University
