@@ -17,7 +17,7 @@ Still, this shows that in tasks where utmost strictness and rule-following are r
 
 But is this inability to parse AMR really a problem, or just evidence that LLMs aren’t the right tool for this particular job? Maybe it’s less a red flag and more a reminder that non-LLM systems and LLMs can complement one another. 
 
-## References
+#### References
 
 [1] [“You Are An Expert Linguistic Annotator”: Limits of LLMs as Analyzers of Abstract Meaning Representation](https://aclanthology.org/2023.findings-emnlp.553/) (Ettinger et al., Findings 2023)
 
