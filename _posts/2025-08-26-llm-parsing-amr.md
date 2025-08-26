@@ -13,7 +13,7 @@ Parsing a text into a formal meaning representation like AMR requires high preci
 
 What does this mean? For me this shows that LLMs have difficulties in following strict plans, even when fine-tuned. I find this somewhat intuitive, since they excel in pragmatics and also seem reasonably creative. Constraining their "wild nature" into a formal corset might limit their capabilities in other important NLP tasks, like dialogue or summarization, where no strict human guidelines can be defined.
 
-Still, this shows that in tasks where utmost strictness and rule-following are required, LLMs may not be the best tools available.
+Still, this shows that in tasks where utmost strictness and rule-following are required, LLMs may not always be the best tools available.
 
 But is this inability to parse AMR really a problem, or just evidence that LLMs aren’t the right tool for this particular job? Maybe it’s less a red flag and more a reminder that non-LLM systems and LLMs can complement one another. 
 
