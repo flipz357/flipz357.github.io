@@ -20,5 +20,7 @@ But is this inability to parse AMR really a problem, or just evidence that LLMs 
 ## References
 
 [1] [“You Are An Expert Linguistic Annotator”: Limits of LLMs as Analyzers of Abstract Meaning Representation](https://aclanthology.org/2023.findings-emnlp.553/) (Ettinger et al., Findings 2023)
+
 [2] [GPT makes a poor AMR parser](https://doi.org/10.21248/jlcl.38.2025.285) (Li & Fowlie, JLCL 2025)
+
 [3] [Evaluation of Finetuned LLMs in AMR Parsing](https://arxiv.org/abs/2508.05028) (Ho Shu Han, arxiv 2025)
