@@ -8,7 +8,9 @@ permalink: /blog
 
 [LLMs can't parse yet](https://www.juriopitz.com/2025/08/26/llm-parsing-amr)
 
-*LLMs seem to sttuggle with creating AMRs, I find this interesting*
+*LLMs seem to struggle when creating AMRs, I find this interesting*
+
+(struggle-01 :arg0 (t / thing :mod (l / large) :arg0-of (m / model-01 :arg1 (l / language))) :arg1 (c / create-01 :arg0 t :arg1 (t2 / thing :arg0-of (r / represent-01 (m / meaning)) :mod (a / abstract))))
 
 ---
 
