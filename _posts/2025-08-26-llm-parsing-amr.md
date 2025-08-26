@@ -6,7 +6,7 @@ published: true
 
 # {{ page.title }}
 
-Parsing a text into a formal meaning representation like AMR requires high precision and strict observance of [guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md). Interestingly, recent research seems to indicate that LLMs are rather bad creating AMRs!
+Parsing a text into a formal meaning representation like AMR requires high precision and strict observance of [guidelines](https://github.com/amrisi/amr-guidelines/blob/master/amr.md). Interestingly, recent research seems to indicate that LLMs are rather bad at creating AMRs!
 
 - [1] and [2] both examine GPT models for parsing via prompting. The results are mediocre at best.
 - [3] finetunes LLMs and while this works better, they do not seem to achieve the same accuracy compared with a much smaller and more efficient sequence-to-sequence model.
