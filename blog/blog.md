@@ -6,7 +6,13 @@ permalink: /blog
 
 # Blog
 
-[Evaluation Quirks, Pitfalls and Some Recommendations: A little Survey](https://www.juriopitz.com/2024/10/17/evaluation-pitfalls-metric-overview-tips)
+[LLMs can't parse yet](https://www.juriopitz.com/2025/08/26/llm-parsing-amr)
+
+*LLMs seem to sttuggle with creating AMRs, I find this interesting*
+
+---
+
+[Evaluation Quirks, Pitfalls and Some Recommendations: A short Survey](https://www.juriopitz.com/2024/10/17/evaluation-pitfalls-metric-overview-tips)
 
 *A collection of funny evaluation quirks and some general guidance for classification evaluation.*
 
