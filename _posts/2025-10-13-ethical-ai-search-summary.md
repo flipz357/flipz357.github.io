@@ -1,5 +1,5 @@
 ---
-title: LLMs can’t parse (yet) 
+title: Responsible AI Search? Google AI and an interesting ethical question
 layout: default
 published: true
 ---
