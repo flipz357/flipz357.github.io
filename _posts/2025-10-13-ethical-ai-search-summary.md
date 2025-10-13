@@ -32,7 +32,7 @@ Also, Google kind of becomes a little cook on its own when it merges multiple so
 
 If the AI system starts to create something genuinely new, even just in the structure or combination of facts, is it still only the waiter — or already a sous-chef in the kitchen?
 
-This, for me, is the real ethical turning point. Summarization is not a neutral act anymore; it’s a kind of re-creation of knowledge. But if this “AI cook” is trained on meals prepared by humans, what happens to those original chefs? Are they still part of the restaurant’s success story — or have they been silently written out of it?
+This, for me, is the real ethical turning point. Summarization is not a neutral act anymore, especially if it's multi-document; it’s a kind of re-creation of knowledge. 
 
 #### Responsibility and Credit Attribution
 
