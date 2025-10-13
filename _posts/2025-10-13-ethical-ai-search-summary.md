@@ -30,9 +30,9 @@ Some may merely want to get a quick overview, and they decide to trust summaries
 
 Also, Google kind of becomes a little cook on its own when it merges multiple sources together into something that is novel (a summary). The line between serving and cooking gets blurred here.
 
-If the AI system starts to create something genuinely new, even just in the structure or combination of facts, is it still only the waiter — or already a sous-chef in the kitchen?
+If the AI system starts to create something genuinely new, even just in the structure or combination of facts, is it still only the waiter. Or is the AI already a sous-chef in the kitchen?
 
-This, for me, is the real ethical turning point. Summarization is not a neutral act anymore, especially if it's multi-document; it’s a kind of re-creation of knowledge. 
+This, for me, is the real ethical inflection point. Summarization is not a neutral act anymore, especially if it's multi-document; it’s a kind of re-creation of knowledge. 
 
 #### Responsibility and Credit Attribution
 
