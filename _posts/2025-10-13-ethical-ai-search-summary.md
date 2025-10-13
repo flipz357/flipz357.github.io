@@ -10,7 +10,7 @@ Taking a train in Switzerland, I sometimes read the *20min news magazine* that i
 
 Anyway, I came across an interesting article titled “Googles KI-Modus: Medienverband warnt vor dem neuen Modell” (English: “Google AI-mode: Media organizations warn of the new model”, [here is the online article](https://www.20min.ch/story/google-wie-chatgpt-googles-ki-modus-medienverband-warnt-vor-dem-neuen-modell-103429929) for reference). 
 
-Apparently, media organizations are complaining that they are losing many clicks and site visits due to Google’s recent AI summarization mode. The new feature not only searches for relevant sources anymore but now also presents a short summary of the retrieved data — probably from at least the first ten results or so.
+Apparently, media organizations are complaining that they are losing many clicks and site visits due to Google’s recent AI summarization mode. The new feature not only searches for relevant sources anymore but now also presents a short summary of the retrieved data. Probably from at least the first ten results or so.
 
 While the sources of these AI summaries are still linked, it seems that many people don’t bother to click on them and look at the original sources directly. Perhaps the summaries are just that good — or maybe we humans simply tend to be a little lazy at times. Either way, the outcome is that now the waiter gets all the credit for the food: Google retrieves, summarizes, and serves, while the actual content cooks are starting to miss user engagement and, let’s be honest, also ad revenue.
 
@@ -20,7 +20,7 @@ I was wondering whether I have any stance on this, and I can actually see argume
 
 If Google stops using AI summaries, people may stop using Google, as many are already used to such summaries — after all, ChatGPT can also search and summarize. There is competitive pressure, and the waiter wants to stay relevant in the restaurant business.
 
-The ethical question for me is hidden in this cook–waiter analogy. If the food is excellent, we would probably like to attribute the cook more. If the service is excellent, then we also like to attribute the waiter — which, in many countries, is customary in the form of tips anyway.
+The ethical question for me is hidden in this cook–waiter analogy. If the food is excellent, we would probably like to attribute the cook more. If the service is excellent, then we also like to attribute the waiter, which, in many countries, is customary in the form of tips anyway.
 
 In this analogy, Google is the waiter, whereas the content providers are the cooks. Now, how can the cooks be attributed if their role is more and more hidden? What do users even want to have on their “digital menu”?
 
