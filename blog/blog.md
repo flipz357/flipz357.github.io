@@ -6,6 +6,12 @@ permalink: /blog
 
 # Blog
 
+[Responsible AI Search? Google AI and an interesting ethical question](https://www.juriopitz.com/2025/10/13/ethical/ai/search/summary.md)
+
+*I read a newspaper in the train and noticed an interesting ethical question of credit attribution in search: content provider vs search provider.*
+
+---
+
 [LLMs can't parse yet](https://www.juriopitz.com/2025/08/26/llm-parsing-amr)
 
 *LLMs seem to struggle when creating AMRs, I find this interesting*
