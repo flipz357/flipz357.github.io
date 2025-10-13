@@ -10,7 +10,7 @@ Taking a train in Switzerland, I sometimes read the *20min news magazine* that i
 
 Anyway, I came across an interesting article titled “Googles KI-Modus: Medienverband warnt vor dem neuen Modell” (English: “Google AI-mode: Media organizations warn of the new model”, [here is the online article](https://www.20min.ch/story/google-wie-chatgpt-googles-ki-modus-medienverband-warnt-vor-dem-neuen-modell-103429929) for reference). 
 
-Apparently, media organizations are complaining that they are losing many clicks and site visits due to Google’s recent AI summarization mode. The new feature not only searches for relevant sources anymore but now also presents a short summary of the retrieved data. Probably from at least the first ten results or so.
+Apparently, **media organizations are complaining that they are losing many clicks and site visits due to Google’s recent AI summarization mode**. The new feature not only searches for relevant sources anymore but now also presents a short summary of the retrieved data. Probably from at least the first ten results or so.
 
 While the sources of these AI summaries are still linked, it seems that many people don’t bother to click on them and look at the original sources directly. Perhaps the summaries are just that good — or maybe we humans simply tend to be a little lazy at times. Either way, the outcome is that now the waiter gets all the credit for the food: Google retrieves, summarizes, and serves, while the actual content cooks are starting to miss user engagement and, let’s be honest, also ad revenue.
 
