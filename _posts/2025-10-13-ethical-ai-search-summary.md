@@ -44,4 +44,4 @@ In other words: if we only tip the waiter, we might soon end up in a restaurant 
 
 ---
 
-PS: I'm sure that the restaurant analogy maybe isn't sound in every way, but I thought it's a reasonably good fit here.
+PS: I'm sure that the restaurant analogy maybe isn't sound in every way, but I thought it's a reasonably good fit.
