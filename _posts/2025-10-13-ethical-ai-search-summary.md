@@ -1,5 +1,5 @@
 ---
-title: Ethics of AI Summarization in Search: When the Waiter Outshines the Cook
+title: LLMs can’t parse (yet) 
 layout: default
 published: true
 ---
