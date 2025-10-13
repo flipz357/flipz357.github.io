@@ -41,3 +41,7 @@ For me, a challenge of responsible AI use is reflected exactly in this balance. 
 So maybe the solution is not about choosing between waiter or cook but about finding a way for both to thrive. Perhaps we need visible attribution, fair sharing models, or user options to switch between “summary view” and “source view.”
 
 In other words: if we only tip the waiter, we might soon end up in a restaurant with no kitchen.
+
+---
+
+PS: I'm sure that the restaurant analogy maybe isn't sound in every way, but I thought it's a reasonably good fit here.
