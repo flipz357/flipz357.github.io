@@ -6,9 +6,9 @@ published: true
 
 # {{ page.title }}
 
-Taking a train in Switzerland, I sometimes read the 20min magazine that is freely available at most train stations (the idea of the name is that it takes you a 20-minute train ride to read — which is actually quite accurate, I find).
+Taking a train in Switzerland, I sometimes read the *20min news magazine* that is freely available at most train stations (the idea of the name is that it takes you a 20-minute train ride to read — which is actually quite accurate, I find).
 
-Anyway, I came across an interesting article titled “Googles KI-Modus: Medienverband warnt vor dem neuen Modell” (English: “Google AI-mode: Media organizations warn of the new model”, [here](https://www.20min.ch/story/google-wie-chatgpt-googles-ki-modus-medienverband-warnt-vor-dem-neuen-modell-103429929) is the online article for reference). 
+Anyway, I came across an interesting article titled “Googles KI-Modus: Medienverband warnt vor dem neuen Modell” (English: “Google AI-mode: Media organizations warn of the new model”, [here is the online article](https://www.20min.ch/story/google-wie-chatgpt-googles-ki-modus-medienverband-warnt-vor-dem-neuen-modell-103429929) for reference). 
 
 Apparently, media organizations are complaining that they are losing many clicks and site visits due to Google’s recent AI summarization mode. The new feature not only searches for relevant sources anymore but now also presents a short summary of the retrieved data — probably from at least the first ten results or so.
 
