@@ -36,7 +36,7 @@ This, for me, is the real ethical inflection point. Summarization is not a neutr
 
 #### Responsibility and Credit Attribution
 
-For me, a challenge of responsible AI use is reflected exactly in this balance. On the one hand, users want convenience — they want their dish served fast, warm, and nicely plated. On the other hand, if nobody credits or pays the cooks anymore, who will still prepare the meals tomorrow?
+For me, a challenge of responsible AI use is reflected exactly in this balance. On the one hand, users want convenience — they want their dish served fast, warm, and nicely plated. On the other hand, if nobody credits or pays the cooks anymore, what then?
 
 So maybe the solution is not about choosing between waiter or cook but about finding a way for both to thrive. Perhaps we need visible attribution, fair sharing models, or user options to switch between “summary view” and “source view.”
 
