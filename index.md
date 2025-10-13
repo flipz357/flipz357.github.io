@@ -24,13 +24,15 @@ I like to study representations and their ability to meaningfully capture data (
 
 #### Other interests ✨:
 
-NLP for history / humanities: Nowadays we got huge digitized historic data sets at our fingertips. How can computers help us make sense of tremendous amounts of such data? In a project, we've tried automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got an idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) code and data.
+NLP for history / humanities: Nowadays we got huge digitized historic data sets at our fingertips. How can computers help us make sense of tremendous amounts of such data? These days, I'm working within the [impresso project](https://impresso-project.ch/), a large, interdiscplinary collaboration of researchers from Switzerland (UZH and EPFL) and Luxembourg. In a side project, I've took a stab at automatically reconstructing coordinates and movement patterns for thousands of medieval entities (🤴👸🧑‍🌾...), starting from the time of the Carolingian dynasty (ca. 750 CE) to Maximilian I. (ca. 1500 CE). Of course, "automatic" also means that there's much room for reducing the error of the resconstructions -- If you've got an idea for reducing the error in such approximations, [here's](https://github.com/flipz357/regesta-imperii-to-semgis) code and data.
 
 ### Selected works 📜
 
 🍄 *Natural Language Processing RELIES on Linguistics*. Available at: [MIT press](https://doi.org/10.1162/coli_a_00560)
 
 🍄 *A Closer Look at Classification Evaluation Metrics and a Critical Reflection of Common Evaluation Practice*. Available at: [MIT press](https://doi.org/10.1162/tacl_a_00675), [arxiv](https://arxiv.org/abs/2404.16958)
+
+🍄 *Interpretable Text Embeddings and Text Similarity Explanation: A Survey*. Available at [arxiv](https://arxiv.org/abs/2502.14862).
 
 🍄 *SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features*. Available at: [ACL anthology](https://aclanthology.org/2022.aacl-main.48/), [arxiv](https://arxiv.org/abs/2206.07023)
 
