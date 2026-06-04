@@ -26,7 +26,7 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. Available at: [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 
-🍄 I contribute to opensource projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/university).
+🖥️ I contribute to opensource projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/university).
 
 ### Teaching and Supervising
 
