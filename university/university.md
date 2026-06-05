@@ -17,7 +17,7 @@ At TU Darmstadt
 
 - Co-supervised a graduate student project on summary evaluation, resulting in [this NAACL publication](https://arxiv.org/abs/2404.01701).
 
-# Student Supervision
+# Student Supervision 
 
 At University of Zurich
 
@@ -26,6 +26,8 @@ At University of Zurich
 - H. Li (MA, 2025) Same or Just Related? Controlled Generation of Adversarial Data for Probing Text Embedding Models
 - A. Barukcic (BA, 2025): Evaluating LLM-Based Simplification on Swiss Financial Crime Regulations
 - M. Muller (BA, 2025): Extracting Relations Between Personsand Locations in Historical Newspaper Articles
+- G. Rocci (BA, 2025): Evaluating Text Embedding Representations Through Paraphrase Detection
+- A. Kamaraj (MA, 2025): Distilling Interpretable Topics into Black-Box Text Embedding Models
 
 
 
