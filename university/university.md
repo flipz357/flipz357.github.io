@@ -23,7 +23,7 @@ At University of Zurich
 
 - Z. Aftab (BA, 2024): Can Large Language Models make Topic Model-Outputs more meaningful?
 - S. Brown (BA, 2024): Ensembling strategies for improving OCR outputs with Large Language Models
-- H. Li (MA, 2025) Same or Just Related? Controlled Generation of Adversarial Data for Probing Text Embedding Models
+- H. Li (MA, 2025) Same or Just Related? Controlled Generation of Adversarial Data for Probing Text Embedding Models. Published as [paper at EMNLP 2025, Suzhou, China](https://aclanthology.org/2025.emnlp-main.1343/).
 - A. Barukcic (BA, 2025): Evaluating LLM-Based Simplification on Swiss Financial Crime Regulations
 - M. Muller (BA, 2025): Extracting Relations Between Personsand Locations in Historical Newspaper Articles
 - G. Rocci (BA, 2025): Evaluating Text Embedding Representations Through Paraphrase Detection
