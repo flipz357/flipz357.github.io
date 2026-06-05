@@ -1,6 +1,6 @@
 ## Juri Opitz, PhD
 
-Hi there! I'm an engineer and researcher interested in machine learning ("AI/KI"), statistics, NLP (Natural Language Processing), and computational linguistics. 
+Hi there! I'm an engineer and researcher interested in machine learning ("AI/KI"), statistics, NLP (Natural Language Processing) and linguistics, and computer science in general. 
 
 I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, working at the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html).
 
