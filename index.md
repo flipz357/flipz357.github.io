@@ -1,6 +1,6 @@
 ## Juri Opitz, PhD
 
-Hi there! I'm an engineer and researcher interested in machine learning ("AI"), statistics, NLP (Natural Language Processing), and computational linguistics. 
+Hi there! I'm an engineer and researcher interested in machine learning ("AI/KI"), statistics, NLP (Natural Language Processing), and computational linguistics. 
 
 I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, working at the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html).
 
@@ -23,7 +23,7 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 {: style="list-style-type: '- ';"}
 
-🖥️ I contribute to opensource projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/university).
+🖥️ I contribute to opensource projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
 
 ### Teaching and Supervising
 
