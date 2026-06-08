@@ -17,7 +17,6 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 🍄 Some selected works are:
 
 - *A Closer Look at Classification Evaluation Metrics and a Critical Reflection of Common Evaluation Practice*. [MIT press](https://doi.org/10.1162/tacl_a_00675), [arxiv](https://arxiv.org/abs/2404.16958)
-- *Interpretable Text Embeddings and Text Similarity Explanation: A Survey*. [ACL anthology](https://aclanthology.org/2025.emnlp-main.1135/), [arxiv](https://arxiv.org/abs/2502.14862)
 - *SBERT studies Meaning Representations: Decomposing Sentence Embeddings into Explainable Semantic Features*. [ACL anthology](https://aclanthology.org/2022.aacl-main.48/), [arxiv](https://arxiv.org/abs/2206.07023)
 - *Natural Language Processing RELIES on Linguistics*. [MIT press](https://doi.org/10.1162/coli_a_00560)
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
