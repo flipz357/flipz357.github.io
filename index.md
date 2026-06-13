@@ -1,8 +1,6 @@
 ## Juri Opitz, PhD
 
-Hi there! I'm an engineer and researcher interested in machine learning ("AI/KI"), statistics, NLP (Natural Language Processing), linguistics, and computer science in general. 
-
-I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, working at the [University of Zurich's CL department](https://www.cl.uzh.ch/en.html).
+I'm an AI research engineer and scientist working on information retrieval, semantic search, embeddings, evaluation methodologies, and retrieval for AI systems. My interests span machine learning, statistics, NLP, and semantic representations.
 
 ### Blog 
 
@@ -10,7 +8,9 @@ Check out my [blog](https://www.juriopitz.com/blog), where I'm sharing some thou
 
 ### Research and Projects 
 
-I have first-authored 20+ peer-reviewed research projects, and led several others as supervisor. Most of them are on topics of AI evaluation, interpretability and meaning representations, as well as embeddings and information retrieval.
+I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives as a supervisor and project contributor.
+
+Most of them are on topics of AI evaluation, interpretability and meaning representations, as well as embeddings and information retrieval.
 
 For an overview of all publications see my [Google Scholar Page](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
@@ -22,7 +22,9 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 {: style="list-style-type: '- ';"}
 
-🖥️ I contribute to opensource projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
+🖥️ I contribute to open-source projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
+
+🛤️ Background: I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, currently working within the interdisciplinary  [Impresso project](https://impresso-project.ch/) on information retrieval, and LLM-based systems.
 
 ### Teaching and Supervising
 
