@@ -1,6 +1,6 @@
 ## Juri Opitz, PhD
 
-I'm an AI research engineer and scientist working on information retrieval, semantic search, embeddings, evaluation methodologies, and retrieval for AI systems. My interests span machine learning, statistics, NLP, and semantic representations.
+I'm an AI research engineer and scientist working on information retrieval, semantic search, embeddings, evaluation methodologies, and AI/LLM systems. My interests span machine learning, statistics, NLP, and semantic representations.
 
 ### Blog 
 
@@ -34,6 +34,7 @@ I have taught courses on diverse topics, and I have supervised several Bachelor 
 
 I have given invited talks on these topics:
 
+- *Borders of Computational Science and the Humanities* at University of Konstanz.
 - *Similar, but why? Studies on Semantic Text Similarity* at University of Dusseldorf.
 - *Metrics of meaning representations and their interesting applications* (Two talks) 1) at DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France. 2) AM4AS Workshop at TALN 2025, Marseille.
 - *NLP and linguistics* (Three talks) 1) @Text+ Plenary, 2024, Mannheim, Germany. 2) at NLP seminar series at National Research Council, Canada. 3) European Research Network Universality, Diversity, and Originality in Language Technology.
