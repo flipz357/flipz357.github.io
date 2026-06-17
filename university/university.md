@@ -8,16 +8,16 @@ permalink: /university
 
 At Heidelberg University
 
-- Lecture on advanced programming with python
-- Seminar on self-attention variants in transformer models
-- Seminar on computational argumentation
-- Seminar on semantic parsing and generation (two term projects of excellent students resulted in peer-reviewed publications: [one](https://arxiv.org/abs/2106.04565) and [two](https://arxiv.org/abs/2203.13226))
+- *Programmieren II: Fortgeschrittene* --- Lecture on advanced programming with python. 
+- *(Trans|Lin|Long|...)former: Self-Attention Mechanisms* --- Seminar on self-attention variants in transformer models.
+- *Computational Argumentation* --- Seminar that bridges philosophical argumentation frameworks with NLP argumentation applications
+- *Meaning Representations: Recent Advances in Parsing and Generation* --- See title. Term projects of excellent students from my "Meaning Representations"-course resulted in peer-reviewed publications: [at IWPT conference](https://aclanthology.org/2021.iwpt-1.6/) and [IWCS conference](https://aclanthology.org/2023.iwcs-1.28/).
 
 At TU Darmstadt
 
-- Co-supervised a graduate student project on summary evaluation, resulting in [this NAACL publication](https://arxiv.org/abs/2404.01701).
+- Co-taught a graduate student project on summary evaluation, resulting in [this NAACL publication](https://aclanthology.org/2024.naacl-short.25/).
 
-# Student Supervision 
+# Thesis Supervision 
 
 At University of Zurich
 
@@ -28,6 +28,7 @@ At University of Zurich
 - M. Muller (BA, 2025): Extracting Relations Between Personsand Locations in Historical Newspaper Articles
 - G. Rocci (BA, 2025): Evaluating Text Embedding Representations Through Paraphrase Detection
 - A. Kamaraj (MA, 2025): Distilling Interpretable Topics into Black-Box Text Embedding Models
+
 
 
 
