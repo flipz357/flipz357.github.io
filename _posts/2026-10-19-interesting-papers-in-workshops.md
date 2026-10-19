@@ -1,5 +1,5 @@
 ---
-title: Finding Interesting Papers in Workshop Proceedings 
+title: Finding Interesting Papers in ACL Workshop Proceedings 
 layout: default
 published: true
 ---
