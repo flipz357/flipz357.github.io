@@ -24,7 +24,7 @@ Here's a small sample of workshop papers that I found very interesting:
 
 ## Conclusion
 
-There are many gems to be found in workshop proceedings. The three papers above is just a small, non-representative sample - I'm sure that I've overlooked many similarly interesting papers.
+There are many gems to be found in workshop proceedings. The three papers above are just a small, non-representative sample - I'm sure that I've overlooked many similarly interesting papers.
 
 So the take-away from this post is: Don't view Workshops as a venues of lesser value. View them as a rich and diverse mine with many crafty ideas and interesting studies.
 
