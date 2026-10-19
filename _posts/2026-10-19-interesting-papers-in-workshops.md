@@ -10,7 +10,7 @@ NLP workshops at ACL venues have a rich tradition. Topics range from representat
 
 While my impression is that workshop papers tend to be perceived as of slightly lower value when compared with conference papers, digging through workshop volumes can be nonetheless entertaining. Since workshops are usually a bit smaller in size, you also don’t have to crawl through a mountain of conference proceedings papers - simply find a workshop with a topic that interests you, and then explore the papers! (Since the workshop landscape is quite dynamic, individual venues are best inspected on a per-year basis in the ACL anthology, e.g., see [this link](https://aclanthology.org/events/ws-2026/) for all ACL-related workshops of 2026.)
 
-Expectations towards meeting certain conventions may be slightly lower for workshop papers, but that doesn't need to be a downside. Instead, it makes those papers often a bit less dense, as it cuts the authors a bit of slack, which can help allow for presentation of more free and less-standard ideas. 
+Expectations towards meeting certain conventions may be slightly lower for workshop papers, but that doesn't need to be a downside. Instead, it makes those papers often a bit less dense, as it cuts the authors a bit of slack, which can help allow for presentation of more free and creative ideas. 
 
 ## Three Recent Workshop Papers that Stuck 
 
