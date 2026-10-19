@@ -20,9 +20,9 @@ Expectations towards meeting conventions may be slightly lower for workshop pape
 
 - [Superframes: A Schema for Lexicon-free Frame-semantic Annotation](https://aclanthology.org/2026.dmr-1.11/) (Evang, DMR 2026). What is the difference between “owning something” and “buying something”? A key difference is that owning implies a state of possession, whereas buying initializes a possession. Since annotating text with such linguistic structures is cumbersome and usually requires  extensive and complicated resources, “Superframes” proposes a more lightweight and generalized semantic annotation scheme, exploiting the beloved Universal Dependencies Schema. This could be very useful for structured linguistic analyses and searches of corpora!
 
-## Conclusion
+## Conclusion'm
 
-Those three papers are just a small, non-representative sample of gems hidden in workshops - I am sure, I have overlooked many similarly interesting papers!
+There's real gems in workshop proceedings! The three papers above is just a small, non-representative sample - I'm sure that I've overlooked many similarly interesting papers!
 
 So the take-away from this post is: Do not view Workshops as a publication-venue of lesser value. View them as a rich, diverse mine of ideas and specialized studies.
 
