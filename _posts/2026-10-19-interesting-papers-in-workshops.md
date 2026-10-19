@@ -12,7 +12,7 @@ While my impression is that workshop papers tend to be perceived as of slightly 
 
 Perhaps expectations towards meeting conventions are slightly lower for workshop papers, but they make them often a bit more light-hearted as they cut the authors a bit of slack, which can help allow for presentation of more curious ideas. (As long as AI reviewers stay out!)
 
-## Three Recent Workshop Papers that stuck with me
+## Three Recent Workshop Papers that Stuck with Me
 
 - [On Tables with Numbers, with Numbers](https://aclanthology.org/2025.lm4uc-1.12/) (Kogkalidis & Chatzikyriakidis, LM4UC 2025). This paper looks at the obsession with numbers in empirical sciences and argues that it goes too far. The issue is that in the fog of numbers, we may forget what they stand for, making us overlook if the measurements that the numbers represent are actually what we want to measure. The linked paper includes an extremely provocative claim: “Tables are irrelevant” - but it makes some strong points, for instance the infatuation with numbers may privilege high-resource labs that can run many experiments, including many redundant ones. Good food for thought!
 
