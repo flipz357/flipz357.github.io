@@ -1,5 +1,5 @@
 ---
-title: Finding Interesting Papers in Workshop Proceedings
+title: Finding Interesting Papers in Workshop Proceedings 
 layout: default
 published: true
 ---
@@ -26,7 +26,9 @@ There's real gems in workshop proceedings! The three papers above is just a smal
 
 So the take-away from this post is: Do not view Workshops as a publication-venue of lesser value. View them as a rich, diverse mine of ideas and specialized studies.
 
-![gemstones](/assets/img/blog/175065-gemstone-colorful-png-file-hd.png){: width="250" }
+<p align="center">
+  💎💎💎
+</p>
 
 
 
