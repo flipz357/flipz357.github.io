@@ -26,5 +26,7 @@ Those three papers are just a small, non-representative sample of gems hidden in
 
 So the take-away from this post is: Do not view Workshops as a publication-venue of lesser value. View them as a rich, diverse mine of ideas and specialized studies.
 
+![gemstones](assets/img/blog/175065-gemstone-colorful-png-file-hd.png)
+
 
 
