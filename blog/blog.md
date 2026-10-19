@@ -6,6 +6,12 @@ permalink: /blog
 
 # Blog
 
+[Finding Interesting Papers in Workshop Proceedings](https://www.juriopitz.com/2026/10/19/interesting-papers-in-workshops)
+
+*Many interesting papers slumber in workshop proceedings. I discuss three gems that stuck with me.*
+
+---
+
 [Responsible AI Search? Google AI and an interesting ethical question](https://www.juriopitz.com/2025/10/13/ethical-ai-search-summary)
 
 *I read a newspaper in the train and noticed an interesting ethical question of credit attribution in search: content provider vs search provider.*
