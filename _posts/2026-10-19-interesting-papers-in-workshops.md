@@ -1,4 +1,10 @@
-# Finding Interesting Papers: Why I like to Look at Workshop Proceedings
+---
+title: Finding Interesting Papers in Workshop Proceedings
+layout: default
+published: true
+---
+
+# {{ page.title }}
 
 NLP workshops have a rich tradition, with topics ranging from representation learning to text technologies for social sciences and speech communities, as well as meta-areas such as teaching NLP and CL. Some workshops span decades and can metamorphose into specialized conferences (e.g., the conference of machine translation -WMT-, where the “W” indicates its provenance).
 
