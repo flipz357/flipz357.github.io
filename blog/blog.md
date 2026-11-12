@@ -6,7 +6,7 @@ permalink: /blog
 
 # Blog
 
-[Writing with AI - Tales and Tips](https://www.juriopitz.com/2026/11/12/ai-assissted-writing-tales-and-tips.md)
+[Writing with AI - Tales and Tips](https://www.juriopitz.com/2026/11/12/ai-assissted-writing-tales-and-tips)
 
 *AI for improving my writing - Nay, or Yay?*
 
