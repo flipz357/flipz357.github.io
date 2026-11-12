@@ -12,7 +12,7 @@ AI feedback and writing assistance is now easy to obtain, and whatever it genera
 
 When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I would notice a fairly consistent pattern: It'd respond with a (very) long list of issues and recommended changes. 
 
-I'm often overwhelmed by this. Hello clippy on steroids!
+This is overwhelmeing. Hello clippy on steroids!
 
 ![Clippy V2](/assets/img/blog/clippy_v2.png)
 
