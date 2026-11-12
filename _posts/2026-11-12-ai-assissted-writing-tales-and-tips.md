@@ -20,7 +20,7 @@ Let’s say I actually dig through this list, and fix everything as recommended.
 
 **But the thing is, many of the AI’s points are also not useful.** So the tricky part is separating the useful from the non-useful in the feedback avalanches. The unhelpful points include those that remove my natural voice and those that distort the meaning of what I want to express, for example, due to the AI making implicit (but wrong) assumptions and extrapolations regarding what I would like to express.
 
-So there’s this funny balance trick: I see that AI can make my writing better and faster in some ways, but too much of it is confusing, it makes a manuscript bland, too streamlined, and potentially even wrong. (Note the slight irony in my wording: Manus means hand in Latin, so many manuscripts that we read these days are not actual manuscripts anymore.)
+So there’s this funny balance trick: I see that AI can make my writing better and faster in some ways. But too much of it is confusing and makes my manuscript bland, too streamlined, and potentially even wrong. (Ah, there's some irony in wording here that shouldn't go unnoticed: *Manus* stems from *hand* in Latin, so many *manuscripts* that we're now reading aren't actually *manus*cripts.)
 
 ## Tips
 
@@ -36,6 +36,6 @@ To conclude this post, here are five points that I believe to be helpful when us
 
 5. Feedback from an attentive human reader with domain background remains the clear gold standard for finding and fixing fundamental issues.
 
-### Disclosure
+### Disclosure and Notes
 
 I did not use AI in any way for writing this post. It is 100% manu scriptum. As we say in German*: “Whoever finds mistakes in above writing may keep them.”
