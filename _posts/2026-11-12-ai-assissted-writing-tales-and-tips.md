@@ -38,6 +38,6 @@ To conclude this post, here are five points that I believe to be helpful when us
 
 5. Feedback from an attentive human reader with domain background remains the clear gold standard for finding and fixing fundamental issues. Try getting human feedback, when possible.
 
-### Disclosure and Notes
+### Disclosure
 
 I did not use AI in any way for writing this post. It is *100% manu scriptum*. As we say in German: “Whoever finds mistakes in above writing may keep them.”
