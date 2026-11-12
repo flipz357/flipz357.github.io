@@ -36,7 +36,7 @@ To conclude this post, here are five points that I believe to be helpful when us
 
 4. Never just blindly copy and paste parts of suggested AI rewrites. Chances are this will decrease the quality of what was written, and mess with the thoughts that one would like to convey.
 
-5. Feedback from an attentive human reader remains the clear gold standard for finding and fixing fundamental issues. Try get human feedback when possible.
+5. Feedback from an attentive human reader remains the most useful. Try get human feedback when possible.
 
 ### Disclosure
 
