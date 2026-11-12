@@ -20,16 +20,18 @@ But the thing is, many of the AI’s points are also not useful. So the tricky p
 
 So there’s this funny balance trick: I see that AI can make my writing better and faster in some ways, but too much of it is confusing, it makes a manuscript bland, too streamlined, and potentially even wrong. (Note the slight irony in my wording: Manus means hand in Latin, so many manuscripts that we read these days are not actual manuscripts anymore.)
 
-To conclude this post, here are five points that I find helpful for guidance when using AI in a writing process:
+## Tips
 
-1 Always write the first draft without any AI help.  Importantly, this helps reflect and refine one’s own thoughts (and prevents brain-shrinking.) Having finished the draft, feedback by AI can help in the further process.
+To conclude this post, here are five points that I believe to be helpful when using AI in a writing process:
 
-2 If the AI complains about something more conceptual or structural that you’ve written, try asking it: What would lead you to reconsider your view on this? Why would that what I had originally written be considered better? Chances are, the AI will flip its opinion and tell you about your writing being preferable in this context. Sometimes, reflecting those pro- and cons and revising the paper accordingly may lead to a material improvement, e.g., by pre-empting potential misunderstandings. And at other times you will simply come to the conclusion: Hey, maybe what I’ve written isn't so bad, let’s stick with it!
+1. Always write the first draft without any AI help.  Importantly, this helps reflect and refine your own thoughts (...and prevents brain shrinking.) Having finished the draft, feedback by AI can help for refinement and speeding some things up.
 
-3 If the issues that the AI spits out are starting to include more than 90% nitpicks, it’s a good sign that your piece of text does not profit from more AI feedback, but your natural voice and unique thoughts are still preserved in a substantial degree.
+2. If the AI complains about something more conceptual or structural that you’ve written, try asking it: What would lead you to reconsider your view on this? Why would that what I had originally written be considered better? Chances are, the AI will flip its opinion and tell you about your writing being preferable in this context. Sometimes, reflecting those pro- and cons and revising the paper accordingly may lead to a material improvement, e.g., by pre-empting potential misunderstandings. And at other times you will simply come to the conclusion: Hey, maybe what I’ve written isn't so bad, let’s stick with it!
 
-4 Never just blindly copy and paste parts of suggested AI rewrites. Chances are this will decrease the quality of what you had written before, and mess with the thoughts that you’d like to convey.
+3. If the issues that the AI spits out are starting to include more than 90% nitpicks, it’s a good sign that your piece of text does not profit from more AI feedback, but your natural voice and unique thoughts are still preserved in a substantial degree.
 
-5 Feedback from an attentive human reader with domain background remains the clear gold standard for finding and fixing fundamental issues.
+4. Never just blindly copy and paste parts of suggested AI rewrites. Chances are this will decrease the quality of what you had written before, and mess with the thoughts that you’d like to convey.
+
+5. Feedback from an attentive human reader with domain background remains the clear gold standard for finding and fixing fundamental issues.
 
 Full disclosure: I did not use AI in any way for writing this post. It is 100% manu scriptum. As we say in German*: “Whoever finds mistakes in above writing may keep them.”
