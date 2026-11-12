@@ -6,7 +6,7 @@ published: true
 
 # {{ page.title }}
 
-English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. AI to the rescue? It isn’t so simple.
+First let's note that English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. AI to the rescue? It isn’t so simple.
 
 When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I notice a fairly consistent pattern: It would respond with a multiple-page-long list of issues and recommended changes. That’s overwhelming. Hello clippy on steroids!
 
@@ -34,4 +34,6 @@ To conclude this post, here are five points that I believe to be helpful when us
 
 5. Feedback from an attentive human reader with domain background remains the clear gold standard for finding and fixing fundamental issues.
 
-Full disclosure: I did not use AI in any way for writing this post. It is 100% manu scriptum. As we say in German*: “Whoever finds mistakes in above writing may keep them.”
+### Disclosure
+
+I did not use AI in any way for writing this post. It is 100% manu scriptum. As we say in German*: “Whoever finds mistakes in above writing may keep them.”
