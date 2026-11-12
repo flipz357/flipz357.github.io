@@ -6,7 +6,7 @@ published: true
 
 # {{ page.title }}
 
-First let's note that English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. Besides, I'd guess that even the best English writers require ample time and effort to write and refine something proper. 
+English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. Besides, I'd guess that even the best English writers require ample time and effort to write and refine something proper. 
 
 AI feedback and writing assistance is now easy to obtain, and whatever it generates seems well crafted at first glance. That'll help everyone, right? It isn’t so simple.
 
