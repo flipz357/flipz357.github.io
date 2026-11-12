@@ -6,7 +6,9 @@ published: true
 
 # {{ page.title }}
 
-First let's note that English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. Besides, I think we can say that even the best English writers sometimes require significant time to write something proper. AI feedback and writing assistance is now easy to obtain. That helps everyone, right? It isn’t so simple.
+First let's note that English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. Besides, I'd guess that even the best English writers require ample time and effort to write and refine something proper. 
+
+AI feedback and writing assistance is now easy to obtain, and whatever it generates seems well crafted at first glance. That'll help everyone, right? It isn’t so simple.
 
 When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I would notice a fairly consistent pattern: It'd respond with a (very) long list of issues and recommended changes. 
 
