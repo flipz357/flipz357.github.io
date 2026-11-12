@@ -1,5 +1,5 @@
 ---
-title: Writing with AI: Tales and Tips
+title: Writing with AI - Tales and Tips
 layout: default
 published: true
 ---
