@@ -8,7 +8,9 @@ published: true
 
 First let's note that English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. AI to the rescue? It isn’t so simple.
 
-When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I would notice a fairly consistent pattern: It'd respond with a (very) long list of issues and recommended changes. That’s overwhelming. Hello clippy on steroids!
+When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I would notice a fairly consistent pattern: It'd respond with a (very) long list of issues and recommended changes. 
+
+That’s overwhelming. Hello clippy on steroids!
 
 ![Clippy V2](/assets/img/blog/clippy_v2.png)
 
