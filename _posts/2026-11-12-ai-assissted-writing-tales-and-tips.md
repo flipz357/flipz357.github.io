@@ -28,7 +28,7 @@ So there’s this balance trick: I see that AI can make my writing better and fa
 
 To conclude this post, here are five points that I believe to be helpful when using AI in a writing process:
 
-1. Always write the first draft without any AI help.  This helps me reflect and refine my own thoughts (...and prevents brain shrinkage.) Having finished the draft, careful usage of AI can come in handy for careful refinement and speeding some things up.
+1. Always write the first draft without any AI help.  This helps me reflect and refine my own thoughts (...and prevents brain shrinkage.) Having finished the draft, carefully dosed usage of AI can come in handy for some refinement and speeding certain things up.
 
 2. If the AI complains about something more conceptual or structural that you’ve written, try asking it: What would lead you to reconsider your view on this? Why would that what I had originally written be considered better? Chances are, the AI will flip its opinion and tell you about your writing being preferable in this context. Sometimes, reflecting those pro- and cons and revising the paper accordingly may lead to a material improvement, e.g., by pre-empting potential misunderstandings. And at other times you will simply come to the conclusion: *Hey, maybe what I’ve written isn't so bad, let’s stick with it!*
 
