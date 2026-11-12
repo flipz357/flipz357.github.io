@@ -16,9 +16,9 @@ That’s overwhelming. Hello clippy on steroids!
 
 Let’s say I actually dig through this list, and fix everything as recommended. The funny part comes when I open a new dialogue session, and ask again for feedback. It’s back to step one: It will again find many new complaints and nitpicks, sometimes regarding its own previous recommendations. 
 
-Some of those highlighted issues and recommendations are useful to me. For example, they can help speed up the polishing of fluency or grammar, and make my English slightly more idiomatic. Sometimes it also finds more global coherence issues, e.g., of terminology and the likes. 
+**Some of those highlighted issues and recommendations are useful to me.** For example, they can help speed up the polishing of fluency or grammar, and make my English slightly more idiomatic. Sometimes it also finds more global coherence issues, e.g., of terminology and the likes. 
 
-But the thing is, many of the AI’s points are also not useful. So the tricky part is separating the useful from the non-useful in the feedback avalanches. The unhelpful points include those that remove my natural voice and those that distort the meaning of what I want to express, for example, due to the AI making implicit (but wrong) assumptions and extrapolations regarding what I would like to express.
+**But the thing is, many of the AI’s points are also not useful.** So the tricky part is separating the useful from the non-useful in the feedback avalanches. The unhelpful points include those that remove my natural voice and those that distort the meaning of what I want to express, for example, due to the AI making implicit (but wrong) assumptions and extrapolations regarding what I would like to express.
 
 So there’s this funny balance trick: I see that AI can make my writing better and faster in some ways, but too much of it is confusing, it makes a manuscript bland, too streamlined, and potentially even wrong. (Note the slight irony in my wording: Manus means hand in Latin, so many manuscripts that we read these days are not actual manuscripts anymore.)
 
