@@ -20,7 +20,7 @@ Let’s say I actually dig through this list, and fix everything as recommended.
 
 **Some of those highlighted issues and recommendations are useful to me.** For example, they can help speed up the polishing of fluency or grammar, and make my English slightly more idiomatic. Sometimes it also finds more global coherence issues, e.g., of terminology and the likes. 
 
-**But the thing is, many of the AI’s points are also not useful.** So the tricky part is separating the useful from the non-useful in the feedback avalanches. The unhelpful points include those that remove my natural voice and those that distort the meaning of what I want to express, for example, due to the AI making implicit (but wrong) assumptions and extrapolations regarding what I would like to express.
+**But the thing is, many of the AI’s points are also not useful.** So the tricky part is separating the useful from the non-useful in those feedback avalanches. The unhelpful points include those that remove my natural voice and those that distort the meaning of what I want to express, for example, due to the AI making implicit (but wrong) assumptions and extrapolations regarding what I would like to express.
 
 So there’s this funny balance trick: I see that AI can make my writing better and faster in some ways. But too much of it is confusing and makes my manuscript bland, too streamlined, and potentially even wrong. (Ah, there's some irony in wording here that shouldn't go unnoticed: *Manus* stems from *hand* in Latin, so many *manuscripts* that we're now reading aren't actually *manus*cripts.)
 
