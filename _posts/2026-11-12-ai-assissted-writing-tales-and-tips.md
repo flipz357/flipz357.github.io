@@ -1,8 +1,16 @@
-Writing Experiments with AI: Tales and Conclusions
+---
+title: Writing with AI: Tales and Tips
+layout: default
+published: true
+---
+
+# {{ page.title }}
 
 English is my second language. For this reason, I fear that writing perfectly idiomatic English will never be a skill that I can call mine. AI to the rescue? It isn’t so simple.
 
-When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I notice a fairly consistent pattern: It would respond with a multiple-page-long list of issues and recommended changes. That’s overwhelming.
+When I sometimes would ask ChatGPT or other LLMs for feedback on something that I’ve written (e.g., a paper draft), I notice a fairly consistent pattern: It would respond with a multiple-page-long list of issues and recommended changes. That’s overwhelming. Hello clippy on steroids!
+
+![Clippy V2](/assets/img/blog/clippy_v2.png)
 
 Let’s say I actually dig through this list, and fix everything as recommended. The funny part comes when I open a new dialogue session, and ask again for feedback. It’s back to step one: It will again find many new complaints and nitpicks, sometimes regarding its own previous recommendations. 
 
