@@ -6,6 +6,12 @@ permalink: /blog
 
 # Blog
 
+[Writing with AI - Tales and Tips](https://www.juriopitz.com/2026/11/12/ai-assissted-writing-tales-and-tips.md)
+
+*AI for improving my writing - Nay, or Yay?*
+
+---
+
 [Finding Interesting Papers in Workshop Proceedings](https://www.juriopitz.com/2026/10/19/interesting-papers-in-workshops)
 
 *Many interesting papers slumber in workshop proceedings. I discuss three gems that stuck with me.*
