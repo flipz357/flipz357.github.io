@@ -32,7 +32,7 @@ To conclude this post, here are five points that I believe to be helpful when us
 
 2. If the AI complains about something more conceptual or structural that you’ve written, try asking it: What would lead you to reconsider your view on this? Why would that what I had originally written be considered better? Chances are, the AI will flip its opinion and tell you about your writing being preferable in this context. Sometimes, reflecting those pro- and cons and revising the paper accordingly may lead to a material improvement, e.g., by pre-empting potential misunderstandings. And at other times you will simply come to the conclusion: *Hey, maybe what I’ve written isn't so bad, let’s stick with it!*
 
-3. If that what the AI spits out is starting to become more than 90% nitpicks, it’s a good sign that my text does not profit from more AI feedback, and my natural voice and unique thoughts are still preserved.
+3. If that what the AI spits out is starting to become more than 90% nitpicks, it’s a good sign that my text does not profit from more AI feedback, and my natural voice is still preserved.
 
 4. Never just blindly copy and paste parts of suggested AI rewrites. Chances are this will decrease the quality of what was written, and mess with the thoughts that one would like to convey.
 
@@ -41,3 +41,14 @@ To conclude this post, here are five points that I believe to be helpful when us
 ### Disclosure
 
 I did not use AI in any way for writing this post. It is *100% manu scriptum*. As we say in German: “Whoever finds mistakes in above writing may keep them.”
+
+### Addendum
+
+I received a comment via [hackernews](https://news.ycombinator.com/item?id=50467674). I found it thoughtful, so I'm forwarding it here:
+
+> I've found that idiosyncratic language from a non-native speaker is still much more fun to read than text corrected by an LLM. One person I know recently started using an LLM to correct their language and it lost the magic.
+>
+> Just stick with your idiosyncratic but probably charming prose.
+
+
+
