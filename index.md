@@ -2,7 +2,7 @@
 
 I'm an engineer and scientist working on AI/LLM systems, information retrieval, semantic search, evaluation methodologies. 
 
-I hold a doctoral degree from the University of Heidelberg, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank)
+I hold a doctoral degree from the University of Heidelberg, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank).
 
 ### Blog 
 
