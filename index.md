@@ -1,6 +1,6 @@
 ## Juri Opitz, PhD
 
-I'm an AI research engineer and scientist working on information retrieval, semantic search, embeddings, evaluation methodologies, and AI/LLM systems. My interests span machine learning, statistics, NLP, and semantic representations.
+I'm an engineer and scientist working on AI/LLM systems, information retrieval, semantic search, evaluation methodologies. 
 
 ### Blog 
 
@@ -8,7 +8,7 @@ Check out my [blog](https://www.juriopitz.com/blog), where I'm sharing some thou
 
 ### Research and Projects 
 
-I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives as a supervisor and project contributor.
+I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives.
 
 Most of them are on topics of AI evaluation, interpretability and meaning representations, as well as embeddings and information retrieval.
 
@@ -24,11 +24,9 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 
 🖥️ I contribute to open-source projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
 
-🛤️ Background: I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, currently working within the interdisciplinary  [Impresso project](https://impresso-project.ch/) on information retrieval, and LLM-based systems.
+### Teaching, Supervising, Speaker
 
-### Teaching and Supervising
-
-I have taught courses on diverse topics, and I have supervised several Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
+I have held invited talks, taught courses on diverse topics, and supervised several Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
 
 ### Invited talks
 
