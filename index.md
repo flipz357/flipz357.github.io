@@ -1,6 +1,6 @@
 ## Juri Opitz, PhD
 
-I'm an engineer and scientist working on AI/LLM systems, information retrieval, semantic search, evaluation methodologies. 
+Engineer and scientist working on AI/LLM systems, information retrieval, semantic search, evaluation methodologies. Curious about language and philosophy.
 
 I hold a doctoral degree from the University of Heidelberg, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank).
 
