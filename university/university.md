@@ -4,16 +4,6 @@ layout: default
 permalink: /university
 ---
 
-## Invited talks
-
-I have given invited talks on these topics:
-
-- *Borders of Computational Science and the Humanities* at University of Konstanz.
-- *Similar, but why? Studies on Semantic Text Similarity* at University of Dusseldorf.
-- *Metrics of meaning representations and their interesting applications* (Two talks) 1) at DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France. 2) AM4AS Workshop at TALN 2025, Marseille.
-- *NLP and linguistics* (Three talks) 1) @Text+ Plenary, 2024, Mannheim, Germany. 2) at NLP seminar series at National Research Council, Canada. 3) European Research Network Universality, Diversity, and Originality in Language Technology.
-{: style="list-style-type: '- ';"}
-
 ## Thesis Supervision 
 
 At University of Zurich
@@ -37,6 +27,16 @@ At Heidelberg University
 At TU Darmstadt
 
 - Co-taught a graduate student project on summary evaluation, resulting in [this NAACL publication](https://aclanthology.org/2024.naacl-short.25/).
+
+## Invited talks
+
+I have given invited talks on these topics:
+
+- *Borders of Computational Science and the Humanities* at University of Konstanz.
+- *Similar, but why? Studies on Semantic Text Similarity* at University of Dusseldorf.
+- *Metrics of meaning representations and their interesting applications* (Two talks) 1) at DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France. 2) AM4AS Workshop at TALN 2025, Marseille.
+- *NLP and linguistics* (Three talks) 1) @Text+ Plenary, 2024, Mannheim, Germany. 2) at NLP seminar series at National Research Council, Canada. 3) European Research Network Universality, Diversity, and Originality in Language Technology.
+{: style="list-style-type: '- ';"}
 
 
 
