@@ -6,7 +6,7 @@ I hold a doctoral degree from the University of Heidelberg, where I was advised 
 
 ### Blog 
 
-Check out my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought bits from time to time.
+Here's my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought bits from time to time.
 
 ### Research and Projects 
 
