@@ -1,16 +1,18 @@
 ## Juri Opitz, PhD
 
-I'm an AI research engineer and scientist working on information retrieval, semantic search, embeddings, evaluation methodologies, and AI/LLM systems. My interests span machine learning, statistics, NLP, and semantic representations.
+Engineer and scientist working on AI/LLM systems, information retrieval, semantic search, evaluation methodologies. Curious about language and philosophy.
+
+I hold a doctoral degree from the University of Heidelberg, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank).
 
 ### Blog 
 
-Check out my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought bits from time to time.
+Here's my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought bits from time to time.
 
-### Research and Projects 
+### Research and Work 
 
-I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives as a supervisor and project contributor.
+I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives.
 
-Most of them are on topics of AI evaluation, interpretability and meaning representations, as well as embeddings and information retrieval.
+They mainly cover topics around AI and NLP systems, particularly evaluation, interpretability, meaning representations, embeddings, and information retrieval.
 
 For an overview of all publications see my [Google Scholar Page](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
@@ -22,22 +24,17 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 {: style="list-style-type: '- ';"}
 
-🖥️ I contribute to open-source projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
+🛠️ Short Work overview:
 
-🛤️ Background: I obtained my doctoral degree (with highest honors) from Heidelberg University, where I was advised by [Anette Frank](https://www.cl.uni-heidelberg.de/nlpgroup/person/frank). Now I'm based in Switzerland, currently working within the interdisciplinary  [Impresso project](https://impresso-project.ch/) on information retrieval, and LLM-based systems.
+- 2018--2024: Doctoral Researcher: Writing my thesis, lecturing, and advising students.
+- 2024--2026: Research Scientist in Impresso project. Worked on understanding and improving AI-based information retrieval.
+- 2026--present: Research Scientist in Crest-AI project. Investigating export-layperson dialogue. 
 
-### Teaching and Supervising
+🖥️ I also contribute to **various software and engineering projects.** See [my GitHub page](https://github.com/flipz357) for some examples. For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
 
-I have taught courses on diverse topics, and I have supervised several Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
+### Teaching, Supervision & Talks
 
-### Invited talks
+I have held invited talks, taught courses on diverse topics, and supervised several Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
 
-I have given invited talks on these topics:
-
-- *Borders of Computational Science and the Humanities* at University of Konstanz.
-- *Similar, but why? Studies on Semantic Text Similarity* at University of Dusseldorf.
-- *Metrics of meaning representations and their interesting applications* (Two talks) 1) at DMR workshop at International Conference for Comp. Semantics, 2023, Nancy, France. 2) AM4AS Workshop at TALN 2025, Marseille.
-- *NLP and linguistics* (Three talks) 1) @Text+ Plenary, 2024, Mannheim, Germany. 2) at NLP seminar series at National Research Council, Canada. 3) European Research Network Universality, Diversity, and Originality in Language Technology.
-{: style="list-style-type: '- ';"}
 
 
