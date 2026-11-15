@@ -12,7 +12,7 @@ Here's my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought
 
 I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives.
 
-They cover topics such as AI evaluation, interpretability, meaning representations, embeddings, and information retrieval.
+They mainly cover topics around AI and NLP systems, particularly evaluation, interpretability, meaning representations, embeddings, and information retrieval.
 
 For an overview of all publications see my [Google Scholar Page](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
@@ -26,8 +26,8 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 
 🛠️ Short Work overview:
 
-- 2018--2024: Doctoral researcher: Writing my thesis, lecturing, and advising students.
-- 2024--2026: Research scientist in Impresso project. Working on understanding and improving semantic search.
+- 2018--2024: Doctoral Researcher: Writing my thesis, lecturing, and advising students.
+- 2024--2026: Research Scientist in Impresso project. Worked on understanding and improving AI-based information retrieval.
 - 2026--present: Research Scientist in Crest-AI project. Investigating export-layperson dialogue. 
 
 🖥️ I also contribute to **various software and engineering projects.** See [my GitHub page](https://github.com/flipz357) for some examples. For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
