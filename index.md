@@ -8,11 +8,11 @@ I hold a doctoral degree from the University of Heidelberg, where I was advised 
 
 Here's my [blog](https://www.juriopitz.com/blog), where I'm sharing some thought bits from time to time.
 
-### Research and Projects 
+### Research and Work 
 
 I have first-authored 20+ peer-reviewed publications and led several collaborative research initiatives.
 
-Most of them are on topics of AI evaluation, interpretability and meaning representations, as well as embeddings and information retrieval.
+They cover topics such as AI evaluation, interpretability, meaning representations, embeddings, and information retrieval.
 
 For an overview of all publications see my [Google Scholar Page](https://scholar.google.de/citations?user=DzxugZIAAAAJ&hl=de).
 
@@ -24,9 +24,15 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 - *SMATCH++: Standardized and Extended Evaluation of Semantic Graphs*. [ACL anthology](https://aclanthology.org/2023.findings-eacl.118/), [arxiv](https://arxiv.org/abs/2305.06993)
 {: style="list-style-type: '- ';"}
 
-🖥️ I contribute to various engineering projects, see also [my github page](https://github.com/flipz357). For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
+🛠️ Short Work overview:
 
-### Teaching, Supervising, Speaker
+- 2018--2024: Doctoral researcher: Writing my thesis, lecturing, and advising students.
+- 2024--2026: Research scientist in Impresso project. Working on understanding and improving semantic search.
+- 2026--present: Research Scientist in Crest-AI project. Investigating export-layperson dialogue. 
+
+🖥️ I also contribute to **various software and engineering projects.** See [my GitHub page](https://github.com/flipz357) for some examples. For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
+
+### Teaching, Supervision & Talks
 
 I have held invited talks, taught courses on diverse topics, and supervised several Bachelor and Master theses. Please see [this page](https://www.juriopitz.com/university) for more information. 
 
