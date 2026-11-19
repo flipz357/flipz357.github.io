@@ -26,9 +26,9 @@ For an overview of all publications see my [Google Scholar Page](https://scholar
 
 🛠️ Short Work overview:
 
+- 2026--present: Research Scientist in Crest-AI project. Investigating export-layperson dialogue.
+- 2024--2026: Research Scientist in Impresso project. Worked on understanding and improving AI-based information retrieval. 
 - 2018--2024: Doctoral Researcher: Writing my thesis, lecturing, and advising students.
-- 2024--2026: Research Scientist in Impresso project. Worked on understanding and improving AI-based information retrieval.
-- 2026--present: Research Scientist in Crest-AI project. Investigating export-layperson dialogue. 
 {: style="list-style-type: '- ';"}
 
 🖥️ I also contribute to **various software and engineering projects.** See [my GitHub page](https://github.com/flipz357) for some examples. For an overview and a few more details of some current research interest, please [click here](https://www.juriopitz.com/interest).
